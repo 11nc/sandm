@@ -1,0 +1,1174 @@
+setting 'ivy.default.settings.dir' to 'jar:file:/Users/lincoln/hp/sandm/sbt-bin/sbt-launch-0.7.4.jar!/org/apache/ivy/core/settings'
+setting 'ivy.basedir' to '/Users/lincoln/hp/sandm/.'
+setting 'ivy.default.conf.dir' to 'jar:file:/Users/lincoln/hp/sandm/sbt-bin/sbt-launch-0.7.4.jar!/org/apache/ivy/core/settings'
+impossible to define new type: class not found: org.apache.ivy.plugins.version.PatternVersionMatcher in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.plugins.trigger.LogTrigger in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.plugins.resolver.VsftpResolver in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.plugins.conflict.RegexpConflictManager in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.plugins.resolver.SshResolver in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.plugins.resolver.VfsResolver in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.plugins.resolver.SFTPResolver in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.plugins.resolver.packager.PackagerResolver in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.ant.AntCallTrigger in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.plugins.resolver.IvyRepResolver in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.ant.AntBuildTrigger in [] nor Ivy classloader
+impossible to define glob matcher: org.apache.ivy.plugins.matcher.GlobPatternMatcher was not found.
+setting 'java.runtime.name' to 'Java(TM) SE Runtime Environment'
+setting 'sun.boot.library.path' to '/System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Libraries'
+setting 'java.vm.version' to '16.3-b01-279'
+setting 'awt.nativeDoubleBuffering' to 'true'
+setting 'gopherProxySet' to 'false'
+setting 'mrj.build' to '10M3065'
+setting 'java.vm.vendor' to 'Apple Inc.'
+setting 'java.vendor.url' to 'http://www.apple.com/'
+setting 'path.separator' to ':'
+setting 'java.vm.name' to 'Java HotSpot(TM) 64-Bit Server VM'
+setting 'file.encoding.pkg' to 'sun.io'
+setting 'sun.java.launcher' to 'SUN_STANDARD'
+setting 'user.country' to 'US'
+setting 'sun.os.patch.level' to 'unknown'
+setting 'java.vm.specification.name' to 'Java Virtual Machine Specification'
+setting 'user.dir' to '/Users/lincoln/hp/sandm'
+setting 'java.runtime.version' to '1.6.0_20-b02-279-10M3065'
+setting 'java.awt.graphicsenv' to 'apple.awt.CGraphicsEnvironment'
+setting 'java.endorsed.dirs' to '/System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Home/lib/endorsed'
+setting 'os.arch' to 'x86_64'
+setting 'java.io.tmpdir' to '/var/folders/hI/hIoaLddpEjS1MXVr34egw++++TI/-Tmp-/'
+setting 'line.separator' to '
+'
+setting 'java.vm.specification.vendor' to 'Sun Microsystems Inc.'
+setting 'os.name' to 'Mac OS X'
+setting 'sun.jnu.encoding' to 'MacRoman'
+setting 'java.library.path' to '.:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java'
+setting 'java.specification.name' to 'Java Platform API Specification'
+setting 'java.class.version' to '50.0'
+setting 'sun.management.compiler' to 'HotSpot 64-Bit Server Compiler'
+setting 'os.version' to '10.6.3'
+setting 'http.nonProxyHosts' to 'local|*.local|169.254/16|*.169.254/16'
+setting 'user.home' to '/Users/lincoln'
+setting 'user.timezone' to 'America/New_York'
+setting 'java.awt.printerjob' to 'apple.awt.CPrinterJob'
+setting 'file.encoding' to 'MacRoman'
+setting 'java.specification.version' to '1.6'
+setting 'java.class.path' to 'sbt-bin/sbt-launch.jar'
+setting 'user.name' to 'lincoln'
+setting 'java.vm.specification.version' to '1.0'
+setting 'java.home' to '/System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Home'
+setting 'sun.arch.data.model' to '64'
+setting 'user.language' to 'en'
+setting 'java.specification.vendor' to 'Sun Microsystems Inc.'
+setting 'awt.toolkit' to 'apple.awt.CToolkit'
+setting 'java.vm.info' to 'mixed mode'
+setting 'java.version' to '1.6.0_20'
+setting 'java.ext.dirs' to '/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Home/lib/ext'
+setting 'sun.boot.class.path' to '/System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Classes/jsfd.jar:/System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Classes/ui.jar:/System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Classes/laf.jar:/System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Classes/sunrsasign.jar:/System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Classes/jsse.jar:/System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Classes/jce.jar:/System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Classes/charsets.jar'
+setting 'java.vendor' to 'Apple Inc.'
+setting 'file.separator' to '/'
+setting 'java.vendor.url.bug' to 'http://bugreport.apple.com/'
+setting 'sun.io.unicode.encoding' to 'UnicodeLittle'
+setting 'sun.cpu.endian' to 'little'
+setting 'mrj.version' to '1060.1.6.0_20-279'
+setting 'socksNonProxyHosts' to 'local|*.local|169.254/16|*.169.254/16'
+setting 'ftp.nonProxyHosts' to 'local|*.local|169.254/16|*.169.254/16'
+setting 'sun.cpu.isalist' to ''
+setting 'ivy.default.ivy.user.dir' to '/Users/lincoln/.ivy2'
+setting 'ivy.home' to '/Users/lincoln/.ivy2'
+no default ivy user dir defined: set to /Users/lincoln/.ivy2
+setting 'ivy.cache.dir' to '/Users/lincoln/.ivy2/cache'
+no default cache defined: set to /Users/lincoln/.ivy2/cache
+setting 'ivy.basedir' to '/Users/lincoln/hp/sandm/project/boot'
+setting 'basedir' to '/Users/lincoln/hp/sandm/project/boot'
+setting 'scala' to '2.7.7'
+:: resolving dependencies :: org.scala-tools.sbt#boot-app;1.0
+	confs: [default]
+	validate = true
+	refresh = false
+resolving dependencies for configuration 'default'
+== resolving dependencies for org.scala-tools.sbt#boot-app;1.0 [default]
+loadData of org.scala-tools.sbt#boot-app;1.0 of rootConf=default
+== resolving dependencies org.scala-tools.sbt#boot-app;1.0->org.scala-tools.sbt#sbt_2.7.7;0.7.4 [default->default(compile)]
+loadData of org.scala-tools.sbt#sbt_2.7.7;0.7.4 of rootConf=default
+	using redefined-public to resolve org.scala-tools.sbt#sbt_2.7.7;0.7.4
+redefined-public: Checking cache for: dependency: org.scala-tools.sbt#sbt_2.7.7;0.7.4 {default=[default(compile)]}
+redefined-public: no namespace defined: using system
+	no ivy file in cache for org.scala-tools.sbt#sbt_2.7.7;0.7.4: tried /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/sbt_2.7.7/ivy-0.7.4.xml
+redefined-public: no latest strategy defined: using default
+local: no namespace defined: using system
+	no ivy file in cache for org.scala-tools.sbt#sbt_2.7.7;0.7.4: tried /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/sbt_2.7.7/ivy-0.7.4.xml
+	 trying /Users/lincoln/.ivy2/local/org.scala-tools.sbt/sbt_2.7.7/0.7.4/ivys/ivy.xml
+		tried /Users/lincoln/.ivy2/local/org.scala-tools.sbt/sbt_2.7.7/0.7.4/ivys/ivy.xml
+	local: resource not reachable for org.scala-tools.sbt#sbt_2.7.7;0.7.4: res=/Users/lincoln/.ivy2/local/org.scala-tools.sbt/sbt_2.7.7/0.7.4/ivys/ivy.xml
+	 trying /Users/lincoln/.ivy2/local/org.scala-tools.sbt/sbt_2.7.7/0.7.4/jars/sbt_2.7.7.jar
+		tried /Users/lincoln/.ivy2/local/org.scala-tools.sbt/sbt_2.7.7/0.7.4/jars/sbt_2.7.7.jar
+	local: resource not reachable for org.scala-tools.sbt#sbt_2.7.7;0.7.4: res=/Users/lincoln/.ivy2/local/org.scala-tools.sbt/sbt_2.7.7/0.7.4/jars/sbt_2.7.7.jar
+	local: no ivy file nor artifact found for org.scala-tools.sbt#sbt_2.7.7;0.7.4
+Maven2 Local: no namespace defined: using system
+	no ivy file in cache for org.scala-tools.sbt#sbt_2.7.7;0.7.4: tried /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/sbt_2.7.7/ivy-0.7.4.xml
+	 trying file:///Users/lincoln/.m2/repository/org/scala-tools/sbt/sbt_2.7.7/0.7.4/sbt_2.7.7-0.7.4.pom
+		tried file:///Users/lincoln/.m2/repository/org/scala-tools/sbt/sbt_2.7.7/0.7.4/sbt_2.7.7-0.7.4.pom
+	Maven2 Local: resource not reachable for org/scala-tools/sbt#sbt_2.7.7;0.7.4: res=file:/Users/lincoln/.m2/repository/org/scala-tools/sbt/sbt_2.7.7/0.7.4/sbt_2.7.7-0.7.4.pom
+	 trying file:///Users/lincoln/.m2/repository/org/scala-tools/sbt/sbt_2.7.7/0.7.4/sbt_2.7.7-0.7.4.jar
+		tried file:///Users/lincoln/.m2/repository/org/scala-tools/sbt/sbt_2.7.7/0.7.4/sbt_2.7.7-0.7.4.jar
+	Maven2 Local: resource not reachable for org/scala-tools/sbt#sbt_2.7.7;0.7.4: res=file:/Users/lincoln/.m2/repository/org/scala-tools/sbt/sbt_2.7.7/0.7.4/sbt_2.7.7-0.7.4.jar
+	Maven2 Local: no ivy file nor artifact found for org.scala-tools.sbt#sbt_2.7.7;0.7.4
+sbt-db: no namespace defined: using system
+	no ivy file in cache for org.scala-tools.sbt#sbt_2.7.7;0.7.4: tried /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/sbt_2.7.7/ivy-0.7.4.xml
+	 trying http://databinder.net/repo/org.scala-tools.sbt/sbt_2.7.7/0.7.4/ivys/ivy.xml
+		tried http://databinder.net/repo/org.scala-tools.sbt/sbt_2.7.7/0.7.4/ivys/ivy.xml
+	sbt-db: found md file for org.scala-tools.sbt#sbt_2.7.7;0.7.4
+		=> http://databinder.net/repo/org.scala-tools.sbt/sbt_2.7.7/0.7.4/ivys/ivy.xml (0.7.4)
+	parser = ivy parser
+	no ivy file in cache for org.scala-tools.sbt#sbt_2.7.7;0.7.4: tried /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/sbt_2.7.7/ivy-0.7.4.xml
+downloading http://databinder.net/repo/org.scala-tools.sbt/sbt_2.7.7/0.7.4/ivys/ivy.xml ...
+	sbt-db: downloading http://databinder.net/repo/org.scala-tools.sbt/sbt_2.7.7/0.7.4/ivys/ivy.xml
+		to /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/sbt_2.7.7/ivy-0.7.4.xml.original.part
+	[SUCCESSFUL ] org.scala-tools.sbt#sbt_2.7.7;0.7.4!ivy.xml(ivy.original) (113ms)
+pre 1.3 ivy file: using exactOrRegexp as default matcher
+	default-cache: parsed downloaded md file for org.scala-tools.sbt#sbt_2.7.7;0.7.4; parsed=org.scala-tools.sbt#sbt_2.7.7;0.7.4
+	checking org.scala-tools.sbt#sbt_2.7.7;0.7.4 from sbt-db against [none]
+	module revision kept as first found: org.scala-tools.sbt#sbt_2.7.7;0.7.4 from sbt-db
+	found org.scala-tools.sbt#sbt_2.7.7;0.7.4 in sbt-db
+excluding dependency: org.scala-lang#scala-library;2.7.7 {default=[default(compile)]} in default
+excluding dependency: org.scala-lang#scala-compiler;2.7.7 {default=[default(compile)]} in default
+== resolving dependencies org.scala-tools.sbt#sbt_2.7.7;0.7.4->com.jcraft#jsch;0.1.31 [default->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.7.7 {default=[default(compile)]} in default
+excluding dependency: org.scala-lang#scala-compiler;2.7.7 {default=[default(compile)]} in default
+loadData of com.jcraft#jsch;0.1.31 of rootConf=default
+	using redefined-public to resolve com.jcraft#jsch;0.1.31
+redefined-public: Checking cache for: dependency: com.jcraft#jsch;0.1.31 {default=[default(compile)]}
+	no ivy file in cache for com.jcraft#jsch;0.1.31: tried /Users/lincoln/.ivy2/cache/com.jcraft/jsch/ivy-0.1.31.xml
+	no ivy file in cache for com.jcraft#jsch;0.1.31: tried /Users/lincoln/.ivy2/cache/com.jcraft/jsch/ivy-0.1.31.xml
+	 trying /Users/lincoln/.ivy2/local/com.jcraft/jsch/0.1.31/ivys/ivy.xml
+		tried /Users/lincoln/.ivy2/local/com.jcraft/jsch/0.1.31/ivys/ivy.xml
+	local: resource not reachable for com.jcraft#jsch;0.1.31: res=/Users/lincoln/.ivy2/local/com.jcraft/jsch/0.1.31/ivys/ivy.xml
+	 trying /Users/lincoln/.ivy2/local/com.jcraft/jsch/0.1.31/jars/jsch.jar
+		tried /Users/lincoln/.ivy2/local/com.jcraft/jsch/0.1.31/jars/jsch.jar
+	local: resource not reachable for com.jcraft#jsch;0.1.31: res=/Users/lincoln/.ivy2/local/com.jcraft/jsch/0.1.31/jars/jsch.jar
+	local: no ivy file nor artifact found for com.jcraft#jsch;0.1.31
+	no ivy file in cache for com.jcraft#jsch;0.1.31: tried /Users/lincoln/.ivy2/cache/com.jcraft/jsch/ivy-0.1.31.xml
+	 trying file:///Users/lincoln/.m2/repository/com/jcraft/jsch/0.1.31/jsch-0.1.31.pom
+		tried file:///Users/lincoln/.m2/repository/com/jcraft/jsch/0.1.31/jsch-0.1.31.pom
+	Maven2 Local: resource not reachable for com/jcraft#jsch;0.1.31: res=file:/Users/lincoln/.m2/repository/com/jcraft/jsch/0.1.31/jsch-0.1.31.pom
+	 trying file:///Users/lincoln/.m2/repository/com/jcraft/jsch/0.1.31/jsch-0.1.31.jar
+		tried file:///Users/lincoln/.m2/repository/com/jcraft/jsch/0.1.31/jsch-0.1.31.jar
+	Maven2 Local: resource not reachable for com/jcraft#jsch;0.1.31: res=file:/Users/lincoln/.m2/repository/com/jcraft/jsch/0.1.31/jsch-0.1.31.jar
+	Maven2 Local: no ivy file nor artifact found for com.jcraft#jsch;0.1.31
+	no ivy file in cache for com.jcraft#jsch;0.1.31: tried /Users/lincoln/.ivy2/cache/com.jcraft/jsch/ivy-0.1.31.xml
+	 trying http://databinder.net/repo/com.jcraft/jsch/0.1.31/ivys/ivy.xml
+		tried http://databinder.net/repo/com.jcraft/jsch/0.1.31/ivys/ivy.xml
+HTTP response status: 404 url=http://databinder.net/repo/com.jcraft/jsch/0.1.31/ivys/ivy.xml
+CLIENT ERROR: Not Found url=http://databinder.net/repo/com.jcraft/jsch/0.1.31/ivys/ivy.xml
+	sbt-db: resource not reachable for com.jcraft#jsch;0.1.31: res=http://databinder.net/repo/com.jcraft/jsch/0.1.31/ivys/ivy.xml
+	 trying http://databinder.net/repo/com.jcraft/jsch/0.1.31/jars/jsch.jar
+		tried http://databinder.net/repo/com.jcraft/jsch/0.1.31/jars/jsch.jar
+HTTP response status: 404 url=http://databinder.net/repo/com.jcraft/jsch/0.1.31/jars/jsch.jar
+CLIENT ERROR: Not Found url=http://databinder.net/repo/com.jcraft/jsch/0.1.31/jars/jsch.jar
+	sbt-db: resource not reachable for com.jcraft#jsch;0.1.31: res=http://databinder.net/repo/com.jcraft/jsch/0.1.31/jars/jsch.jar
+	sbt-db: no ivy file nor artifact found for com.jcraft#jsch;0.1.31
+Maven Central: no namespace defined: using system
+	no ivy file in cache for com.jcraft#jsch;0.1.31: tried /Users/lincoln/.ivy2/cache/com.jcraft/jsch/ivy-0.1.31.xml
+	 trying http://repo1.maven.org/maven2/com/jcraft/jsch/0.1.31/jsch-0.1.31.pom
+		tried http://repo1.maven.org/maven2/com/jcraft/jsch/0.1.31/jsch-0.1.31.pom
+	Maven Central: found md file for com.jcraft#jsch;0.1.31
+		=> http://repo1.maven.org/maven2/com/jcraft/jsch/0.1.31/jsch-0.1.31.pom (0.1.31)
+	parser = pom parser
+	no ivy file in cache for com.jcraft#jsch;0.1.31: tried /Users/lincoln/.ivy2/cache/com.jcraft/jsch/ivy-0.1.31.xml
+downloading http://repo1.maven.org/maven2/com/jcraft/jsch/0.1.31/jsch-0.1.31.pom ...
+	Maven Central: downloading http://repo1.maven.org/maven2/com/jcraft/jsch/0.1.31/jsch-0.1.31.pom
+		to /Users/lincoln/.ivy2/cache/com.jcraft/jsch/ivy-0.1.31.xml.original.part
+	[SUCCESSFUL ] com.jcraft#jsch;0.1.31!jsch.pom(pom.original) (660ms)
+	 trying /Users/lincoln/.ivy2/local/com.jcraft/jsch/0.1.31/jars/jsch.jar
+		tried /Users/lincoln/.ivy2/local/com.jcraft/jsch/0.1.31/jars/jsch.jar
+	local: resource not reachable for com.jcraft#jsch;0.1.31: res=/Users/lincoln/.ivy2/local/com.jcraft/jsch/0.1.31/jars/jsch.jar
+	 trying file:///Users/lincoln/.m2/repository/com/jcraft/jsch/0.1.31/jsch-0.1.31.jar
+		tried file:///Users/lincoln/.m2/repository/com/jcraft/jsch/0.1.31/jsch-0.1.31.jar
+	Maven2 Local: resource not reachable for com/jcraft#jsch;0.1.31: res=file:/Users/lincoln/.m2/repository/com/jcraft/jsch/0.1.31/jsch-0.1.31.jar
+	 trying http://databinder.net/repo/com.jcraft/jsch/0.1.31/jars/jsch.jar
+		tried http://databinder.net/repo/com.jcraft/jsch/0.1.31/jars/jsch.jar
+	sbt-db: resource not reachable for com.jcraft#jsch;0.1.31: res=http://databinder.net/repo/com.jcraft/jsch/0.1.31/jars/jsch.jar
+	 trying http://repo1.maven.org/maven2/com/jcraft/jsch/0.1.31/jsch-0.1.31.jar
+		tried http://repo1.maven.org/maven2/com/jcraft/jsch/0.1.31/jsch-0.1.31.jar
+	 trying /Users/lincoln/.ivy2/local/com.jcraft/jsch/0.1.31/sources/jsch-sources.jar
+		tried /Users/lincoln/.ivy2/local/com.jcraft/jsch/0.1.31/sources/jsch-sources.jar
+	local: resource not reachable for com.jcraft#jsch;0.1.31: res=/Users/lincoln/.ivy2/local/com.jcraft/jsch/0.1.31/sources/jsch-sources.jar
+	 trying file:///Users/lincoln/.m2/repository/com/jcraft/jsch/0.1.31/jsch-0.1.31-sources.jar
+		tried file:///Users/lincoln/.m2/repository/com/jcraft/jsch/0.1.31/jsch-0.1.31-sources.jar
+	Maven2 Local: resource not reachable for com/jcraft#jsch;0.1.31: res=file:/Users/lincoln/.m2/repository/com/jcraft/jsch/0.1.31/jsch-0.1.31-sources.jar
+	 trying http://databinder.net/repo/com.jcraft/jsch/0.1.31/sources/jsch-sources.jar
+		tried http://databinder.net/repo/com.jcraft/jsch/0.1.31/sources/jsch-sources.jar
+HTTP response status: 404 url=http://databinder.net/repo/com.jcraft/jsch/0.1.31/sources/jsch-sources.jar
+CLIENT ERROR: Not Found url=http://databinder.net/repo/com.jcraft/jsch/0.1.31/sources/jsch-sources.jar
+	sbt-db: resource not reachable for com.jcraft#jsch;0.1.31: res=http://databinder.net/repo/com.jcraft/jsch/0.1.31/sources/jsch-sources.jar
+	 trying http://repo1.maven.org/maven2/com/jcraft/jsch/0.1.31/jsch-0.1.31-sources.jar
+		tried http://repo1.maven.org/maven2/com/jcraft/jsch/0.1.31/jsch-0.1.31-sources.jar
+source artifact found for com.jcraft#jsch;0.1.31
+	 trying /Users/lincoln/.ivy2/local/com.jcraft/jsch/0.1.31/javadocs/jsch-javadoc.jar
+		tried /Users/lincoln/.ivy2/local/com.jcraft/jsch/0.1.31/javadocs/jsch-javadoc.jar
+	local: resource not reachable for com.jcraft#jsch;0.1.31: res=/Users/lincoln/.ivy2/local/com.jcraft/jsch/0.1.31/javadocs/jsch-javadoc.jar
+	 trying file:///Users/lincoln/.m2/repository/com/jcraft/jsch/0.1.31/jsch-0.1.31-javadoc.jar
+		tried file:///Users/lincoln/.m2/repository/com/jcraft/jsch/0.1.31/jsch-0.1.31-javadoc.jar
+	Maven2 Local: resource not reachable for com/jcraft#jsch;0.1.31: res=file:/Users/lincoln/.m2/repository/com/jcraft/jsch/0.1.31/jsch-0.1.31-javadoc.jar
+	 trying http://databinder.net/repo/com.jcraft/jsch/0.1.31/javadocs/jsch-javadoc.jar
+		tried http://databinder.net/repo/com.jcraft/jsch/0.1.31/javadocs/jsch-javadoc.jar
+HTTP response status: 404 url=http://databinder.net/repo/com.jcraft/jsch/0.1.31/javadocs/jsch-javadoc.jar
+CLIENT ERROR: Not Found url=http://databinder.net/repo/com.jcraft/jsch/0.1.31/javadocs/jsch-javadoc.jar
+	sbt-db: resource not reachable for com.jcraft#jsch;0.1.31: res=http://databinder.net/repo/com.jcraft/jsch/0.1.31/javadocs/jsch-javadoc.jar
+	 trying http://repo1.maven.org/maven2/com/jcraft/jsch/0.1.31/jsch-0.1.31-javadoc.jar
+		tried http://repo1.maven.org/maven2/com/jcraft/jsch/0.1.31/jsch-0.1.31-javadoc.jar
+HTTP response status: 404 url=http://repo1.maven.org/maven2/com/jcraft/jsch/0.1.31/jsch-0.1.31-javadoc.jar
+CLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/jcraft/jsch/0.1.31/jsch-0.1.31-javadoc.jar
+	Maven Central: resource not reachable for com/jcraft#jsch;0.1.31: res=http://repo1.maven.org/maven2/com/jcraft/jsch/0.1.31/jsch-0.1.31-javadoc.jar
+	 trying http://scala-tools.org/repo-releases/com/jcraft/jsch/0.1.31/jsch-0.1.31-javadoc.jar
+		tried http://scala-tools.org/repo-releases/com/jcraft/jsch/0.1.31/jsch-0.1.31-javadoc.jar
+HTTP response status: 404 url=http://scala-tools.org/repo-releases/com/jcraft/jsch/0.1.31/jsch-0.1.31-javadoc.jar
+CLIENT ERROR: Not Found url=http://scala-tools.org/repo-releases/com/jcraft/jsch/0.1.31/jsch-0.1.31-javadoc.jar
+	Scala-Tools Maven2 Repository: resource not reachable for com/jcraft#jsch;0.1.31: res=http://scala-tools.org/repo-releases/com/jcraft/jsch/0.1.31/jsch-0.1.31-javadoc.jar
+	 trying http://scala-tools.org/repo-snapshots/com/jcraft/jsch/0.1.31/jsch-0.1.31-javadoc.jar
+		tried http://scala-tools.org/repo-snapshots/com/jcraft/jsch/0.1.31/jsch-0.1.31-javadoc.jar
+HTTP response status: 404 url=http://scala-tools.org/repo-snapshots/com/jcraft/jsch/0.1.31/jsch-0.1.31-javadoc.jar
+CLIENT ERROR: Not Found url=http://scala-tools.org/repo-snapshots/com/jcraft/jsch/0.1.31/jsch-0.1.31-javadoc.jar
+	Scala-Tools Maven2 Snapshots Repository: resource not reachable for com/jcraft#jsch;0.1.31: res=http://scala-tools.org/repo-snapshots/com/jcraft/jsch/0.1.31/jsch-0.1.31-javadoc.jar
+no javadoc artifact found for com.jcraft#jsch;0.1.31
+	default-cache: parsed downloaded md file for com.jcraft#jsch;0.1.31; parsed=com.jcraft#jsch;0.1.31
+	checking com.jcraft#jsch;0.1.31 from Maven Central against [none]
+	module revision kept as first found: com.jcraft#jsch;0.1.31 from Maven Central
+	found com.jcraft#jsch;0.1.31 in Maven Central
+== resolving dependencies org.scala-tools.sbt#sbt_2.7.7;0.7.4->com.jcraft#jsch;0.1.31 [default->runtime]
+loadData of com.jcraft#jsch;0.1.31 of rootConf=default
+== resolving dependencies org.scala-tools.sbt#sbt_2.7.7;0.7.4->com.jcraft#jsch;0.1.31 [default->compile]
+loadData of com.jcraft#jsch;0.1.31 of rootConf=default
+== resolving dependencies org.scala-tools.sbt#sbt_2.7.7;0.7.4->com.jcraft#jsch;0.1.31 [default->master]
+loadData of com.jcraft#jsch;0.1.31 of rootConf=default
+== resolving dependencies org.scala-tools.sbt#sbt_2.7.7;0.7.4->org.scala-tools.testing#test-interface;0.5 [default->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.7.7 {default=[default(compile)]} in default
+excluding dependency: org.scala-lang#scala-compiler;2.7.7 {default=[default(compile)]} in default
+loadData of org.scala-tools.testing#test-interface;0.5 of rootConf=default
+	using redefined-public to resolve org.scala-tools.testing#test-interface;0.5
+redefined-public: Checking cache for: dependency: org.scala-tools.testing#test-interface;0.5 {default=[default(compile)]}
+	no ivy file in cache for org.scala-tools.testing#test-interface;0.5: tried /Users/lincoln/.ivy2/cache/org.scala-tools.testing/test-interface/ivy-0.5.xml
+	no ivy file in cache for org.scala-tools.testing#test-interface;0.5: tried /Users/lincoln/.ivy2/cache/org.scala-tools.testing/test-interface/ivy-0.5.xml
+	 trying /Users/lincoln/.ivy2/local/org.scala-tools.testing/test-interface/0.5/ivys/ivy.xml
+		tried /Users/lincoln/.ivy2/local/org.scala-tools.testing/test-interface/0.5/ivys/ivy.xml
+	local: resource not reachable for org.scala-tools.testing#test-interface;0.5: res=/Users/lincoln/.ivy2/local/org.scala-tools.testing/test-interface/0.5/ivys/ivy.xml
+	 trying /Users/lincoln/.ivy2/local/org.scala-tools.testing/test-interface/0.5/jars/test-interface.jar
+		tried /Users/lincoln/.ivy2/local/org.scala-tools.testing/test-interface/0.5/jars/test-interface.jar
+	local: resource not reachable for org.scala-tools.testing#test-interface;0.5: res=/Users/lincoln/.ivy2/local/org.scala-tools.testing/test-interface/0.5/jars/test-interface.jar
+	local: no ivy file nor artifact found for org.scala-tools.testing#test-interface;0.5
+	no ivy file in cache for org.scala-tools.testing#test-interface;0.5: tried /Users/lincoln/.ivy2/cache/org.scala-tools.testing/test-interface/ivy-0.5.xml
+	 trying file:///Users/lincoln/.m2/repository/org/scala-tools/testing/test-interface/0.5/test-interface-0.5.pom
+		tried file:///Users/lincoln/.m2/repository/org/scala-tools/testing/test-interface/0.5/test-interface-0.5.pom
+	Maven2 Local: resource not reachable for org/scala-tools/testing#test-interface;0.5: res=file:/Users/lincoln/.m2/repository/org/scala-tools/testing/test-interface/0.5/test-interface-0.5.pom
+	 trying file:///Users/lincoln/.m2/repository/org/scala-tools/testing/test-interface/0.5/test-interface-0.5.jar
+		tried file:///Users/lincoln/.m2/repository/org/scala-tools/testing/test-interface/0.5/test-interface-0.5.jar
+	Maven2 Local: resource not reachable for org/scala-tools/testing#test-interface;0.5: res=file:/Users/lincoln/.m2/repository/org/scala-tools/testing/test-interface/0.5/test-interface-0.5.jar
+	Maven2 Local: no ivy file nor artifact found for org.scala-tools.testing#test-interface;0.5
+	no ivy file in cache for org.scala-tools.testing#test-interface;0.5: tried /Users/lincoln/.ivy2/cache/org.scala-tools.testing/test-interface/ivy-0.5.xml
+	 trying http://databinder.net/repo/org.scala-tools.testing/test-interface/0.5/ivys/ivy.xml
+		tried http://databinder.net/repo/org.scala-tools.testing/test-interface/0.5/ivys/ivy.xml
+HTTP response status: 404 url=http://databinder.net/repo/org.scala-tools.testing/test-interface/0.5/ivys/ivy.xml
+CLIENT ERROR: Not Found url=http://databinder.net/repo/org.scala-tools.testing/test-interface/0.5/ivys/ivy.xml
+	sbt-db: resource not reachable for org.scala-tools.testing#test-interface;0.5: res=http://databinder.net/repo/org.scala-tools.testing/test-interface/0.5/ivys/ivy.xml
+	 trying http://databinder.net/repo/org.scala-tools.testing/test-interface/0.5/jars/test-interface.jar
+		tried http://databinder.net/repo/org.scala-tools.testing/test-interface/0.5/jars/test-interface.jar
+HTTP response status: 404 url=http://databinder.net/repo/org.scala-tools.testing/test-interface/0.5/jars/test-interface.jar
+CLIENT ERROR: Not Found url=http://databinder.net/repo/org.scala-tools.testing/test-interface/0.5/jars/test-interface.jar
+	sbt-db: resource not reachable for org.scala-tools.testing#test-interface;0.5: res=http://databinder.net/repo/org.scala-tools.testing/test-interface/0.5/jars/test-interface.jar
+	sbt-db: no ivy file nor artifact found for org.scala-tools.testing#test-interface;0.5
+	no ivy file in cache for org.scala-tools.testing#test-interface;0.5: tried /Users/lincoln/.ivy2/cache/org.scala-tools.testing/test-interface/ivy-0.5.xml
+	 trying http://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5.pom
+		tried http://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5.pom
+	Maven Central: found md file for org.scala-tools.testing#test-interface;0.5
+		=> http://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5.pom (0.5)
+	parser = pom parser
+	no ivy file in cache for org.scala-tools.testing#test-interface;0.5: tried /Users/lincoln/.ivy2/cache/org.scala-tools.testing/test-interface/ivy-0.5.xml
+downloading http://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5.pom ...
+	Maven Central: downloading http://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5.pom
+		to /Users/lincoln/.ivy2/cache/org.scala-tools.testing/test-interface/ivy-0.5.xml.original.part
+	[SUCCESSFUL ] org.scala-tools.testing#test-interface;0.5!test-interface.pom(pom.original) (358ms)
+	 trying /Users/lincoln/.ivy2/local/org.scala-tools.testing/test-interface/0.5/jars/test-interface.jar
+		tried /Users/lincoln/.ivy2/local/org.scala-tools.testing/test-interface/0.5/jars/test-interface.jar
+	local: resource not reachable for org.scala-tools.testing#test-interface;0.5: res=/Users/lincoln/.ivy2/local/org.scala-tools.testing/test-interface/0.5/jars/test-interface.jar
+	 trying file:///Users/lincoln/.m2/repository/org/scala-tools/testing/test-interface/0.5/test-interface-0.5.jar
+		tried file:///Users/lincoln/.m2/repository/org/scala-tools/testing/test-interface/0.5/test-interface-0.5.jar
+	Maven2 Local: resource not reachable for org/scala-tools/testing#test-interface;0.5: res=file:/Users/lincoln/.m2/repository/org/scala-tools/testing/test-interface/0.5/test-interface-0.5.jar
+	 trying http://databinder.net/repo/org.scala-tools.testing/test-interface/0.5/jars/test-interface.jar
+		tried http://databinder.net/repo/org.scala-tools.testing/test-interface/0.5/jars/test-interface.jar
+	sbt-db: resource not reachable for org.scala-tools.testing#test-interface;0.5: res=http://databinder.net/repo/org.scala-tools.testing/test-interface/0.5/jars/test-interface.jar
+	 trying http://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5.jar
+		tried http://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5.jar
+	 trying /Users/lincoln/.ivy2/local/org.scala-tools.testing/test-interface/0.5/sources/test-interface-sources.jar
+		tried /Users/lincoln/.ivy2/local/org.scala-tools.testing/test-interface/0.5/sources/test-interface-sources.jar
+	local: resource not reachable for org.scala-tools.testing#test-interface;0.5: res=/Users/lincoln/.ivy2/local/org.scala-tools.testing/test-interface/0.5/sources/test-interface-sources.jar
+	 trying file:///Users/lincoln/.m2/repository/org/scala-tools/testing/test-interface/0.5/test-interface-0.5-sources.jar
+		tried file:///Users/lincoln/.m2/repository/org/scala-tools/testing/test-interface/0.5/test-interface-0.5-sources.jar
+	Maven2 Local: resource not reachable for org/scala-tools/testing#test-interface;0.5: res=file:/Users/lincoln/.m2/repository/org/scala-tools/testing/test-interface/0.5/test-interface-0.5-sources.jar
+	 trying http://databinder.net/repo/org.scala-tools.testing/test-interface/0.5/sources/test-interface-sources.jar
+		tried http://databinder.net/repo/org.scala-tools.testing/test-interface/0.5/sources/test-interface-sources.jar
+HTTP response status: 404 url=http://databinder.net/repo/org.scala-tools.testing/test-interface/0.5/sources/test-interface-sources.jar
+CLIENT ERROR: Not Found url=http://databinder.net/repo/org.scala-tools.testing/test-interface/0.5/sources/test-interface-sources.jar
+	sbt-db: resource not reachable for org.scala-tools.testing#test-interface;0.5: res=http://databinder.net/repo/org.scala-tools.testing/test-interface/0.5/sources/test-interface-sources.jar
+	 trying http://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5-sources.jar
+		tried http://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5-sources.jar
+HTTP response status: 404 url=http://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5-sources.jar
+CLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5-sources.jar
+	Maven Central: resource not reachable for org/scala-tools/testing#test-interface;0.5: res=http://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5-sources.jar
+	 trying http://scala-tools.org/repo-releases/org/scala-tools/testing/test-interface/0.5/test-interface-0.5-sources.jar
+		tried http://scala-tools.org/repo-releases/org/scala-tools/testing/test-interface/0.5/test-interface-0.5-sources.jar
+HTTP response status: 404 url=http://scala-tools.org/repo-releases/org/scala-tools/testing/test-interface/0.5/test-interface-0.5-sources.jar
+CLIENT ERROR: Not Found url=http://scala-tools.org/repo-releases/org/scala-tools/testing/test-interface/0.5/test-interface-0.5-sources.jar
+	Scala-Tools Maven2 Repository: resource not reachable for org/scala-tools/testing#test-interface;0.5: res=http://scala-tools.org/repo-releases/org/scala-tools/testing/test-interface/0.5/test-interface-0.5-sources.jar
+	 trying http://scala-tools.org/repo-snapshots/org/scala-tools/testing/test-interface/0.5/test-interface-0.5-sources.jar
+		tried http://scala-tools.org/repo-snapshots/org/scala-tools/testing/test-interface/0.5/test-interface-0.5-sources.jar
+HTTP response status: 404 url=http://scala-tools.org/repo-snapshots/org/scala-tools/testing/test-interface/0.5/test-interface-0.5-sources.jar
+CLIENT ERROR: Not Found url=http://scala-tools.org/repo-snapshots/org/scala-tools/testing/test-interface/0.5/test-interface-0.5-sources.jar
+	Scala-Tools Maven2 Snapshots Repository: resource not reachable for org/scala-tools/testing#test-interface;0.5: res=http://scala-tools.org/repo-snapshots/org/scala-tools/testing/test-interface/0.5/test-interface-0.5-sources.jar
+no source artifact found for org.scala-tools.testing#test-interface;0.5
+	 trying /Users/lincoln/.ivy2/local/org.scala-tools.testing/test-interface/0.5/javadocs/test-interface-javadoc.jar
+		tried /Users/lincoln/.ivy2/local/org.scala-tools.testing/test-interface/0.5/javadocs/test-interface-javadoc.jar
+	local: resource not reachable for org.scala-tools.testing#test-interface;0.5: res=/Users/lincoln/.ivy2/local/org.scala-tools.testing/test-interface/0.5/javadocs/test-interface-javadoc.jar
+	 trying file:///Users/lincoln/.m2/repository/org/scala-tools/testing/test-interface/0.5/test-interface-0.5-javadoc.jar
+		tried file:///Users/lincoln/.m2/repository/org/scala-tools/testing/test-interface/0.5/test-interface-0.5-javadoc.jar
+	Maven2 Local: resource not reachable for org/scala-tools/testing#test-interface;0.5: res=file:/Users/lincoln/.m2/repository/org/scala-tools/testing/test-interface/0.5/test-interface-0.5-javadoc.jar
+	 trying http://databinder.net/repo/org.scala-tools.testing/test-interface/0.5/javadocs/test-interface-javadoc.jar
+		tried http://databinder.net/repo/org.scala-tools.testing/test-interface/0.5/javadocs/test-interface-javadoc.jar
+HTTP response status: 404 url=http://databinder.net/repo/org.scala-tools.testing/test-interface/0.5/javadocs/test-interface-javadoc.jar
+CLIENT ERROR: Not Found url=http://databinder.net/repo/org.scala-tools.testing/test-interface/0.5/javadocs/test-interface-javadoc.jar
+	sbt-db: resource not reachable for org.scala-tools.testing#test-interface;0.5: res=http://databinder.net/repo/org.scala-tools.testing/test-interface/0.5/javadocs/test-interface-javadoc.jar
+	 trying http://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5-javadoc.jar
+		tried http://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5-javadoc.jar
+HTTP response status: 404 url=http://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5-javadoc.jar
+CLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5-javadoc.jar
+	Maven Central: resource not reachable for org/scala-tools/testing#test-interface;0.5: res=http://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5-javadoc.jar
+	 trying http://scala-tools.org/repo-releases/org/scala-tools/testing/test-interface/0.5/test-interface-0.5-javadoc.jar
+		tried http://scala-tools.org/repo-releases/org/scala-tools/testing/test-interface/0.5/test-interface-0.5-javadoc.jar
+HTTP response status: 404 url=http://scala-tools.org/repo-releases/org/scala-tools/testing/test-interface/0.5/test-interface-0.5-javadoc.jar
+CLIENT ERROR: Not Found url=http://scala-tools.org/repo-releases/org/scala-tools/testing/test-interface/0.5/test-interface-0.5-javadoc.jar
+	Scala-Tools Maven2 Repository: resource not reachable for org/scala-tools/testing#test-interface;0.5: res=http://scala-tools.org/repo-releases/org/scala-tools/testing/test-interface/0.5/test-interface-0.5-javadoc.jar
+	 trying http://scala-tools.org/repo-snapshots/org/scala-tools/testing/test-interface/0.5/test-interface-0.5-javadoc.jar
+		tried http://scala-tools.org/repo-snapshots/org/scala-tools/testing/test-interface/0.5/test-interface-0.5-javadoc.jar
+HTTP response status: 404 url=http://scala-tools.org/repo-snapshots/org/scala-tools/testing/test-interface/0.5/test-interface-0.5-javadoc.jar
+CLIENT ERROR: Not Found url=http://scala-tools.org/repo-snapshots/org/scala-tools/testing/test-interface/0.5/test-interface-0.5-javadoc.jar
+	Scala-Tools Maven2 Snapshots Repository: resource not reachable for org/scala-tools/testing#test-interface;0.5: res=http://scala-tools.org/repo-snapshots/org/scala-tools/testing/test-interface/0.5/test-interface-0.5-javadoc.jar
+no javadoc artifact found for org.scala-tools.testing#test-interface;0.5
+	default-cache: parsed downloaded md file for org.scala-tools.testing#test-interface;0.5; parsed=org.scala-tools.testing#test-interface;0.5
+	checking org.scala-tools.testing#test-interface;0.5 from Maven Central against [none]
+	module revision kept as first found: org.scala-tools.testing#test-interface;0.5 from Maven Central
+	found org.scala-tools.testing#test-interface;0.5 in Maven Central
+== resolving dependencies org.scala-tools.sbt#sbt_2.7.7;0.7.4->org.scala-tools.testing#test-interface;0.5 [default->runtime]
+loadData of org.scala-tools.testing#test-interface;0.5 of rootConf=default
+== resolving dependencies org.scala-tools.sbt#sbt_2.7.7;0.7.4->org.scala-tools.testing#test-interface;0.5 [default->compile]
+loadData of org.scala-tools.testing#test-interface;0.5 of rootConf=default
+== resolving dependencies org.scala-tools.sbt#sbt_2.7.7;0.7.4->org.scala-tools.testing#test-interface;0.5 [default->master]
+loadData of org.scala-tools.testing#test-interface;0.5 of rootConf=default
+== resolving dependencies org.scala-tools.sbt#sbt_2.7.7;0.7.4->org.apache.ivy#ivy;2.1.0 [default->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.7.7 {default=[default(compile)]} in default
+excluding dependency: org.scala-lang#scala-compiler;2.7.7 {default=[default(compile)]} in default
+loadData of org.apache.ivy#ivy;2.1.0 of rootConf=default
+	using redefined-public to resolve org.apache.ivy#ivy;2.1.0
+redefined-public: Checking cache for: dependency: org.apache.ivy#ivy;2.1.0 {default=[default(compile)]}
+	no ivy file in cache for org.apache.ivy#ivy;2.1.0: tried /Users/lincoln/.ivy2/cache/org.apache.ivy/ivy/ivy-2.1.0.xml
+	no ivy file in cache for org.apache.ivy#ivy;2.1.0: tried /Users/lincoln/.ivy2/cache/org.apache.ivy/ivy/ivy-2.1.0.xml
+	 trying /Users/lincoln/.ivy2/local/org.apache.ivy/ivy/2.1.0/ivys/ivy.xml
+		tried /Users/lincoln/.ivy2/local/org.apache.ivy/ivy/2.1.0/ivys/ivy.xml
+	local: resource not reachable for org.apache.ivy#ivy;2.1.0: res=/Users/lincoln/.ivy2/local/org.apache.ivy/ivy/2.1.0/ivys/ivy.xml
+	 trying /Users/lincoln/.ivy2/local/org.apache.ivy/ivy/2.1.0/jars/ivy.jar
+		tried /Users/lincoln/.ivy2/local/org.apache.ivy/ivy/2.1.0/jars/ivy.jar
+	local: resource not reachable for org.apache.ivy#ivy;2.1.0: res=/Users/lincoln/.ivy2/local/org.apache.ivy/ivy/2.1.0/jars/ivy.jar
+	local: no ivy file nor artifact found for org.apache.ivy#ivy;2.1.0
+	no ivy file in cache for org.apache.ivy#ivy;2.1.0: tried /Users/lincoln/.ivy2/cache/org.apache.ivy/ivy/ivy-2.1.0.xml
+	 trying file:///Users/lincoln/.m2/repository/org/apache/ivy/ivy/2.1.0/ivy-2.1.0.pom
+		tried file:///Users/lincoln/.m2/repository/org/apache/ivy/ivy/2.1.0/ivy-2.1.0.pom
+	Maven2 Local: resource not reachable for org/apache/ivy#ivy;2.1.0: res=file:/Users/lincoln/.m2/repository/org/apache/ivy/ivy/2.1.0/ivy-2.1.0.pom
+	 trying file:///Users/lincoln/.m2/repository/org/apache/ivy/ivy/2.1.0/ivy-2.1.0.jar
+		tried file:///Users/lincoln/.m2/repository/org/apache/ivy/ivy/2.1.0/ivy-2.1.0.jar
+	Maven2 Local: resource not reachable for org/apache/ivy#ivy;2.1.0: res=file:/Users/lincoln/.m2/repository/org/apache/ivy/ivy/2.1.0/ivy-2.1.0.jar
+	Maven2 Local: no ivy file nor artifact found for org.apache.ivy#ivy;2.1.0
+	no ivy file in cache for org.apache.ivy#ivy;2.1.0: tried /Users/lincoln/.ivy2/cache/org.apache.ivy/ivy/ivy-2.1.0.xml
+	 trying http://databinder.net/repo/org.apache.ivy/ivy/2.1.0/ivys/ivy.xml
+		tried http://databinder.net/repo/org.apache.ivy/ivy/2.1.0/ivys/ivy.xml
+HTTP response status: 404 url=http://databinder.net/repo/org.apache.ivy/ivy/2.1.0/ivys/ivy.xml
+CLIENT ERROR: Not Found url=http://databinder.net/repo/org.apache.ivy/ivy/2.1.0/ivys/ivy.xml
+	sbt-db: resource not reachable for org.apache.ivy#ivy;2.1.0: res=http://databinder.net/repo/org.apache.ivy/ivy/2.1.0/ivys/ivy.xml
+	 trying http://databinder.net/repo/org.apache.ivy/ivy/2.1.0/jars/ivy.jar
+		tried http://databinder.net/repo/org.apache.ivy/ivy/2.1.0/jars/ivy.jar
+HTTP response status: 404 url=http://databinder.net/repo/org.apache.ivy/ivy/2.1.0/jars/ivy.jar
+CLIENT ERROR: Not Found url=http://databinder.net/repo/org.apache.ivy/ivy/2.1.0/jars/ivy.jar
+	sbt-db: resource not reachable for org.apache.ivy#ivy;2.1.0: res=http://databinder.net/repo/org.apache.ivy/ivy/2.1.0/jars/ivy.jar
+	sbt-db: no ivy file nor artifact found for org.apache.ivy#ivy;2.1.0
+	no ivy file in cache for org.apache.ivy#ivy;2.1.0: tried /Users/lincoln/.ivy2/cache/org.apache.ivy/ivy/ivy-2.1.0.xml
+	 trying http://repo1.maven.org/maven2/org/apache/ivy/ivy/2.1.0/ivy-2.1.0.pom
+		tried http://repo1.maven.org/maven2/org/apache/ivy/ivy/2.1.0/ivy-2.1.0.pom
+	Maven Central: found md file for org.apache.ivy#ivy;2.1.0
+		=> http://repo1.maven.org/maven2/org/apache/ivy/ivy/2.1.0/ivy-2.1.0.pom (2.1.0)
+	parser = pom parser
+	no ivy file in cache for org.apache.ivy#ivy;2.1.0: tried /Users/lincoln/.ivy2/cache/org.apache.ivy/ivy/ivy-2.1.0.xml
+downloading http://repo1.maven.org/maven2/org/apache/ivy/ivy/2.1.0/ivy-2.1.0.pom ...
+	Maven Central: downloading http://repo1.maven.org/maven2/org/apache/ivy/ivy/2.1.0/ivy-2.1.0.pom
+		to /Users/lincoln/.ivy2/cache/org.apache.ivy/ivy/ivy-2.1.0.xml.original.part
+	[SUCCESSFUL ] org.apache.ivy#ivy;2.1.0!ivy.pom(pom.original) (813ms)
+	 trying /Users/lincoln/.ivy2/local/org.apache.ivy/ivy/2.1.0/jars/ivy.jar
+		tried /Users/lincoln/.ivy2/local/org.apache.ivy/ivy/2.1.0/jars/ivy.jar
+	local: resource not reachable for org.apache.ivy#ivy;2.1.0: res=/Users/lincoln/.ivy2/local/org.apache.ivy/ivy/2.1.0/jars/ivy.jar
+	 trying file:///Users/lincoln/.m2/repository/org/apache/ivy/ivy/2.1.0/ivy-2.1.0.jar
+		tried file:///Users/lincoln/.m2/repository/org/apache/ivy/ivy/2.1.0/ivy-2.1.0.jar
+	Maven2 Local: resource not reachable for org/apache/ivy#ivy;2.1.0: res=file:/Users/lincoln/.m2/repository/org/apache/ivy/ivy/2.1.0/ivy-2.1.0.jar
+	 trying http://databinder.net/repo/org.apache.ivy/ivy/2.1.0/jars/ivy.jar
+		tried http://databinder.net/repo/org.apache.ivy/ivy/2.1.0/jars/ivy.jar
+	sbt-db: resource not reachable for org.apache.ivy#ivy;2.1.0: res=http://databinder.net/repo/org.apache.ivy/ivy/2.1.0/jars/ivy.jar
+	 trying http://repo1.maven.org/maven2/org/apache/ivy/ivy/2.1.0/ivy-2.1.0.jar
+		tried http://repo1.maven.org/maven2/org/apache/ivy/ivy/2.1.0/ivy-2.1.0.jar
+	 trying /Users/lincoln/.ivy2/local/org.apache.ivy/ivy/2.1.0/sources/ivy-sources.jar
+		tried /Users/lincoln/.ivy2/local/org.apache.ivy/ivy/2.1.0/sources/ivy-sources.jar
+	local: resource not reachable for org.apache.ivy#ivy;2.1.0: res=/Users/lincoln/.ivy2/local/org.apache.ivy/ivy/2.1.0/sources/ivy-sources.jar
+	 trying file:///Users/lincoln/.m2/repository/org/apache/ivy/ivy/2.1.0/ivy-2.1.0-sources.jar
+		tried file:///Users/lincoln/.m2/repository/org/apache/ivy/ivy/2.1.0/ivy-2.1.0-sources.jar
+	Maven2 Local: resource not reachable for org/apache/ivy#ivy;2.1.0: res=file:/Users/lincoln/.m2/repository/org/apache/ivy/ivy/2.1.0/ivy-2.1.0-sources.jar
+	 trying http://databinder.net/repo/org.apache.ivy/ivy/2.1.0/sources/ivy-sources.jar
+		tried http://databinder.net/repo/org.apache.ivy/ivy/2.1.0/sources/ivy-sources.jar
+HTTP response status: 404 url=http://databinder.net/repo/org.apache.ivy/ivy/2.1.0/sources/ivy-sources.jar
+CLIENT ERROR: Not Found url=http://databinder.net/repo/org.apache.ivy/ivy/2.1.0/sources/ivy-sources.jar
+	sbt-db: resource not reachable for org.apache.ivy#ivy;2.1.0: res=http://databinder.net/repo/org.apache.ivy/ivy/2.1.0/sources/ivy-sources.jar
+	 trying http://repo1.maven.org/maven2/org/apache/ivy/ivy/2.1.0/ivy-2.1.0-sources.jar
+		tried http://repo1.maven.org/maven2/org/apache/ivy/ivy/2.1.0/ivy-2.1.0-sources.jar
+source artifact found for org.apache.ivy#ivy;2.1.0
+	 trying /Users/lincoln/.ivy2/local/org.apache.ivy/ivy/2.1.0/javadocs/ivy-javadoc.jar
+		tried /Users/lincoln/.ivy2/local/org.apache.ivy/ivy/2.1.0/javadocs/ivy-javadoc.jar
+	local: resource not reachable for org.apache.ivy#ivy;2.1.0: res=/Users/lincoln/.ivy2/local/org.apache.ivy/ivy/2.1.0/javadocs/ivy-javadoc.jar
+	 trying file:///Users/lincoln/.m2/repository/org/apache/ivy/ivy/2.1.0/ivy-2.1.0-javadoc.jar
+		tried file:///Users/lincoln/.m2/repository/org/apache/ivy/ivy/2.1.0/ivy-2.1.0-javadoc.jar
+	Maven2 Local: resource not reachable for org/apache/ivy#ivy;2.1.0: res=file:/Users/lincoln/.m2/repository/org/apache/ivy/ivy/2.1.0/ivy-2.1.0-javadoc.jar
+	 trying http://databinder.net/repo/org.apache.ivy/ivy/2.1.0/javadocs/ivy-javadoc.jar
+		tried http://databinder.net/repo/org.apache.ivy/ivy/2.1.0/javadocs/ivy-javadoc.jar
+HTTP response status: 404 url=http://databinder.net/repo/org.apache.ivy/ivy/2.1.0/javadocs/ivy-javadoc.jar
+CLIENT ERROR: Not Found url=http://databinder.net/repo/org.apache.ivy/ivy/2.1.0/javadocs/ivy-javadoc.jar
+	sbt-db: resource not reachable for org.apache.ivy#ivy;2.1.0: res=http://databinder.net/repo/org.apache.ivy/ivy/2.1.0/javadocs/ivy-javadoc.jar
+	 trying http://repo1.maven.org/maven2/org/apache/ivy/ivy/2.1.0/ivy-2.1.0-javadoc.jar
+		tried http://repo1.maven.org/maven2/org/apache/ivy/ivy/2.1.0/ivy-2.1.0-javadoc.jar
+javadoc artifact found for org.apache.ivy#ivy;2.1.0
+	default-cache: parsed downloaded md file for org.apache.ivy#ivy;2.1.0; parsed=org.apache.ivy#ivy;2.1.0
+	checking org.apache.ivy#ivy;2.1.0 from Maven Central against [none]
+	module revision kept as first found: org.apache.ivy#ivy;2.1.0 from Maven Central
+	found org.apache.ivy#ivy;2.1.0 in Maven Central
+== resolving dependencies org.scala-tools.sbt#sbt_2.7.7;0.7.4->org.apache.ivy#ivy;2.1.0 [default->runtime]
+loadData of org.apache.ivy#ivy;2.1.0 of rootConf=default
+== resolving dependencies org.scala-tools.sbt#sbt_2.7.7;0.7.4->org.apache.ivy#ivy;2.1.0 [default->compile]
+loadData of org.apache.ivy#ivy;2.1.0 of rootConf=default
+== resolving dependencies org.scala-tools.sbt#sbt_2.7.7;0.7.4->org.apache.ivy#ivy;2.1.0 [default->master]
+loadData of org.apache.ivy#ivy;2.1.0 of rootConf=default
+== resolving dependencies org.scala-tools.sbt#sbt_2.7.7;0.7.4->org.scala-tools.sbt#compile_2.7.7;0.7.4 [default->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.7.7 {default=[default(compile)]} in default
+excluding dependency: org.scala-lang#scala-compiler;2.7.7 {default=[default(compile)]} in default
+loadData of org.scala-tools.sbt#compile_2.7.7;0.7.4 of rootConf=default
+	using redefined-public to resolve org.scala-tools.sbt#compile_2.7.7;0.7.4
+redefined-public: Checking cache for: dependency: org.scala-tools.sbt#compile_2.7.7;0.7.4 {default=[default(compile)]}
+	no ivy file in cache for org.scala-tools.sbt#compile_2.7.7;0.7.4: tried /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/compile_2.7.7/ivy-0.7.4.xml
+	no ivy file in cache for org.scala-tools.sbt#compile_2.7.7;0.7.4: tried /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/compile_2.7.7/ivy-0.7.4.xml
+	 trying /Users/lincoln/.ivy2/local/org.scala-tools.sbt/compile_2.7.7/0.7.4/ivys/ivy.xml
+		tried /Users/lincoln/.ivy2/local/org.scala-tools.sbt/compile_2.7.7/0.7.4/ivys/ivy.xml
+	local: resource not reachable for org.scala-tools.sbt#compile_2.7.7;0.7.4: res=/Users/lincoln/.ivy2/local/org.scala-tools.sbt/compile_2.7.7/0.7.4/ivys/ivy.xml
+	 trying /Users/lincoln/.ivy2/local/org.scala-tools.sbt/compile_2.7.7/0.7.4/jars/compile_2.7.7.jar
+		tried /Users/lincoln/.ivy2/local/org.scala-tools.sbt/compile_2.7.7/0.7.4/jars/compile_2.7.7.jar
+	local: resource not reachable for org.scala-tools.sbt#compile_2.7.7;0.7.4: res=/Users/lincoln/.ivy2/local/org.scala-tools.sbt/compile_2.7.7/0.7.4/jars/compile_2.7.7.jar
+	local: no ivy file nor artifact found for org.scala-tools.sbt#compile_2.7.7;0.7.4
+	no ivy file in cache for org.scala-tools.sbt#compile_2.7.7;0.7.4: tried /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/compile_2.7.7/ivy-0.7.4.xml
+	 trying file:///Users/lincoln/.m2/repository/org/scala-tools/sbt/compile_2.7.7/0.7.4/compile_2.7.7-0.7.4.pom
+		tried file:///Users/lincoln/.m2/repository/org/scala-tools/sbt/compile_2.7.7/0.7.4/compile_2.7.7-0.7.4.pom
+	Maven2 Local: resource not reachable for org/scala-tools/sbt#compile_2.7.7;0.7.4: res=file:/Users/lincoln/.m2/repository/org/scala-tools/sbt/compile_2.7.7/0.7.4/compile_2.7.7-0.7.4.pom
+	 trying file:///Users/lincoln/.m2/repository/org/scala-tools/sbt/compile_2.7.7/0.7.4/compile_2.7.7-0.7.4.jar
+		tried file:///Users/lincoln/.m2/repository/org/scala-tools/sbt/compile_2.7.7/0.7.4/compile_2.7.7-0.7.4.jar
+	Maven2 Local: resource not reachable for org/scala-tools/sbt#compile_2.7.7;0.7.4: res=file:/Users/lincoln/.m2/repository/org/scala-tools/sbt/compile_2.7.7/0.7.4/compile_2.7.7-0.7.4.jar
+	Maven2 Local: no ivy file nor artifact found for org.scala-tools.sbt#compile_2.7.7;0.7.4
+	no ivy file in cache for org.scala-tools.sbt#compile_2.7.7;0.7.4: tried /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/compile_2.7.7/ivy-0.7.4.xml
+	 trying http://databinder.net/repo/org.scala-tools.sbt/compile_2.7.7/0.7.4/ivys/ivy.xml
+		tried http://databinder.net/repo/org.scala-tools.sbt/compile_2.7.7/0.7.4/ivys/ivy.xml
+	sbt-db: found md file for org.scala-tools.sbt#compile_2.7.7;0.7.4
+		=> http://databinder.net/repo/org.scala-tools.sbt/compile_2.7.7/0.7.4/ivys/ivy.xml (0.7.4)
+	parser = ivy parser
+	no ivy file in cache for org.scala-tools.sbt#compile_2.7.7;0.7.4: tried /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/compile_2.7.7/ivy-0.7.4.xml
+downloading http://databinder.net/repo/org.scala-tools.sbt/compile_2.7.7/0.7.4/ivys/ivy.xml ...
+	sbt-db: downloading http://databinder.net/repo/org.scala-tools.sbt/compile_2.7.7/0.7.4/ivys/ivy.xml
+		to /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/compile_2.7.7/ivy-0.7.4.xml.original.part
+	[SUCCESSFUL ] org.scala-tools.sbt#compile_2.7.7;0.7.4!ivy.xml(ivy.original) (72ms)
+pre 1.3 ivy file: using exactOrRegexp as default matcher
+	default-cache: parsed downloaded md file for org.scala-tools.sbt#compile_2.7.7;0.7.4; parsed=org.scala-tools.sbt#compile_2.7.7;0.7.4
+	checking org.scala-tools.sbt#compile_2.7.7;0.7.4 from sbt-db against [none]
+	module revision kept as first found: org.scala-tools.sbt#compile_2.7.7;0.7.4 from sbt-db
+	found org.scala-tools.sbt#compile_2.7.7;0.7.4 in sbt-db
+== resolving dependencies org.scala-tools.sbt#compile_2.7.7;0.7.4->org.scala-tools.sbt#launcher-interface;0.7.4 [default->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.7.7 {default=[default(compile)]} in default
+excluding dependency: org.scala-lang#scala-compiler;2.7.7 {default=[default(compile)]} in default
+loadData of org.scala-tools.sbt#launcher-interface;0.7.4 of rootConf=default
+	using redefined-public to resolve org.scala-tools.sbt#launcher-interface;0.7.4
+redefined-public: Checking cache for: dependency: org.scala-tools.sbt#launcher-interface;0.7.4 {default=[default(compile)]}
+	no ivy file in cache for org.scala-tools.sbt#launcher-interface;0.7.4: tried /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/launcher-interface/ivy-0.7.4.xml
+	no ivy file in cache for org.scala-tools.sbt#launcher-interface;0.7.4: tried /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/launcher-interface/ivy-0.7.4.xml
+	 trying /Users/lincoln/.ivy2/local/org.scala-tools.sbt/launcher-interface/0.7.4/ivys/ivy.xml
+		tried /Users/lincoln/.ivy2/local/org.scala-tools.sbt/launcher-interface/0.7.4/ivys/ivy.xml
+	local: resource not reachable for org.scala-tools.sbt#launcher-interface;0.7.4: res=/Users/lincoln/.ivy2/local/org.scala-tools.sbt/launcher-interface/0.7.4/ivys/ivy.xml
+	 trying /Users/lincoln/.ivy2/local/org.scala-tools.sbt/launcher-interface/0.7.4/jars/launcher-interface.jar
+		tried /Users/lincoln/.ivy2/local/org.scala-tools.sbt/launcher-interface/0.7.4/jars/launcher-interface.jar
+	local: resource not reachable for org.scala-tools.sbt#launcher-interface;0.7.4: res=/Users/lincoln/.ivy2/local/org.scala-tools.sbt/launcher-interface/0.7.4/jars/launcher-interface.jar
+	local: no ivy file nor artifact found for org.scala-tools.sbt#launcher-interface;0.7.4
+	no ivy file in cache for org.scala-tools.sbt#launcher-interface;0.7.4: tried /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/launcher-interface/ivy-0.7.4.xml
+	 trying file:///Users/lincoln/.m2/repository/org/scala-tools/sbt/launcher-interface/0.7.4/launcher-interface-0.7.4.pom
+		tried file:///Users/lincoln/.m2/repository/org/scala-tools/sbt/launcher-interface/0.7.4/launcher-interface-0.7.4.pom
+	Maven2 Local: resource not reachable for org/scala-tools/sbt#launcher-interface;0.7.4: res=file:/Users/lincoln/.m2/repository/org/scala-tools/sbt/launcher-interface/0.7.4/launcher-interface-0.7.4.pom
+	 trying file:///Users/lincoln/.m2/repository/org/scala-tools/sbt/launcher-interface/0.7.4/launcher-interface-0.7.4.jar
+		tried file:///Users/lincoln/.m2/repository/org/scala-tools/sbt/launcher-interface/0.7.4/launcher-interface-0.7.4.jar
+	Maven2 Local: resource not reachable for org/scala-tools/sbt#launcher-interface;0.7.4: res=file:/Users/lincoln/.m2/repository/org/scala-tools/sbt/launcher-interface/0.7.4/launcher-interface-0.7.4.jar
+	Maven2 Local: no ivy file nor artifact found for org.scala-tools.sbt#launcher-interface;0.7.4
+	no ivy file in cache for org.scala-tools.sbt#launcher-interface;0.7.4: tried /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/launcher-interface/ivy-0.7.4.xml
+	 trying http://databinder.net/repo/org.scala-tools.sbt/launcher-interface/0.7.4/ivys/ivy.xml
+		tried http://databinder.net/repo/org.scala-tools.sbt/launcher-interface/0.7.4/ivys/ivy.xml
+	sbt-db: found md file for org.scala-tools.sbt#launcher-interface;0.7.4
+		=> http://databinder.net/repo/org.scala-tools.sbt/launcher-interface/0.7.4/ivys/ivy.xml (0.7.4)
+	parser = ivy parser
+	no ivy file in cache for org.scala-tools.sbt#launcher-interface;0.7.4: tried /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/launcher-interface/ivy-0.7.4.xml
+downloading http://databinder.net/repo/org.scala-tools.sbt/launcher-interface/0.7.4/ivys/ivy.xml ...
+	sbt-db: downloading http://databinder.net/repo/org.scala-tools.sbt/launcher-interface/0.7.4/ivys/ivy.xml
+		to /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/launcher-interface/ivy-0.7.4.xml.original.part
+	[SUCCESSFUL ] org.scala-tools.sbt#launcher-interface;0.7.4!ivy.xml(ivy.original) (103ms)
+pre 1.3 ivy file: using exactOrRegexp as default matcher
+	default-cache: parsed downloaded md file for org.scala-tools.sbt#launcher-interface;0.7.4; parsed=org.scala-tools.sbt#launcher-interface;0.7.4
+	checking org.scala-tools.sbt#launcher-interface;0.7.4 from sbt-db against [none]
+	module revision kept as first found: org.scala-tools.sbt#launcher-interface;0.7.4 from sbt-db
+	found org.scala-tools.sbt#launcher-interface;0.7.4 in sbt-db
+== resolving dependencies org.scala-tools.sbt#compile_2.7.7;0.7.4->org.scala-tools.sbt#interface;0.7.4 [default->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.7.7 {default=[default(compile)]} in default
+excluding dependency: org.scala-lang#scala-compiler;2.7.7 {default=[default(compile)]} in default
+loadData of org.scala-tools.sbt#interface;0.7.4 of rootConf=default
+	using redefined-public to resolve org.scala-tools.sbt#interface;0.7.4
+redefined-public: Checking cache for: dependency: org.scala-tools.sbt#interface;0.7.4 {default=[default(compile)]}
+	no ivy file in cache for org.scala-tools.sbt#interface;0.7.4: tried /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/interface/ivy-0.7.4.xml
+	no ivy file in cache for org.scala-tools.sbt#interface;0.7.4: tried /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/interface/ivy-0.7.4.xml
+	 trying /Users/lincoln/.ivy2/local/org.scala-tools.sbt/interface/0.7.4/ivys/ivy.xml
+		tried /Users/lincoln/.ivy2/local/org.scala-tools.sbt/interface/0.7.4/ivys/ivy.xml
+	local: resource not reachable for org.scala-tools.sbt#interface;0.7.4: res=/Users/lincoln/.ivy2/local/org.scala-tools.sbt/interface/0.7.4/ivys/ivy.xml
+	 trying /Users/lincoln/.ivy2/local/org.scala-tools.sbt/interface/0.7.4/jars/interface.jar
+		tried /Users/lincoln/.ivy2/local/org.scala-tools.sbt/interface/0.7.4/jars/interface.jar
+	local: resource not reachable for org.scala-tools.sbt#interface;0.7.4: res=/Users/lincoln/.ivy2/local/org.scala-tools.sbt/interface/0.7.4/jars/interface.jar
+	local: no ivy file nor artifact found for org.scala-tools.sbt#interface;0.7.4
+	no ivy file in cache for org.scala-tools.sbt#interface;0.7.4: tried /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/interface/ivy-0.7.4.xml
+	 trying file:///Users/lincoln/.m2/repository/org/scala-tools/sbt/interface/0.7.4/interface-0.7.4.pom
+		tried file:///Users/lincoln/.m2/repository/org/scala-tools/sbt/interface/0.7.4/interface-0.7.4.pom
+	Maven2 Local: resource not reachable for org/scala-tools/sbt#interface;0.7.4: res=file:/Users/lincoln/.m2/repository/org/scala-tools/sbt/interface/0.7.4/interface-0.7.4.pom
+	 trying file:///Users/lincoln/.m2/repository/org/scala-tools/sbt/interface/0.7.4/interface-0.7.4.jar
+		tried file:///Users/lincoln/.m2/repository/org/scala-tools/sbt/interface/0.7.4/interface-0.7.4.jar
+	Maven2 Local: resource not reachable for org/scala-tools/sbt#interface;0.7.4: res=file:/Users/lincoln/.m2/repository/org/scala-tools/sbt/interface/0.7.4/interface-0.7.4.jar
+	Maven2 Local: no ivy file nor artifact found for org.scala-tools.sbt#interface;0.7.4
+	no ivy file in cache for org.scala-tools.sbt#interface;0.7.4: tried /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/interface/ivy-0.7.4.xml
+	 trying http://databinder.net/repo/org.scala-tools.sbt/interface/0.7.4/ivys/ivy.xml
+		tried http://databinder.net/repo/org.scala-tools.sbt/interface/0.7.4/ivys/ivy.xml
+	sbt-db: found md file for org.scala-tools.sbt#interface;0.7.4
+		=> http://databinder.net/repo/org.scala-tools.sbt/interface/0.7.4/ivys/ivy.xml (0.7.4)
+	parser = ivy parser
+	no ivy file in cache for org.scala-tools.sbt#interface;0.7.4: tried /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/interface/ivy-0.7.4.xml
+downloading http://databinder.net/repo/org.scala-tools.sbt/interface/0.7.4/ivys/ivy.xml ...
+	sbt-db: downloading http://databinder.net/repo/org.scala-tools.sbt/interface/0.7.4/ivys/ivy.xml
+		to /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/interface/ivy-0.7.4.xml.original.part
+	[SUCCESSFUL ] org.scala-tools.sbt#interface;0.7.4!ivy.xml(ivy.original) (70ms)
+pre 1.3 ivy file: using exactOrRegexp as default matcher
+	default-cache: parsed downloaded md file for org.scala-tools.sbt#interface;0.7.4; parsed=org.scala-tools.sbt#interface;0.7.4
+	checking org.scala-tools.sbt#interface;0.7.4 from sbt-db against [none]
+	module revision kept as first found: org.scala-tools.sbt#interface;0.7.4 from sbt-db
+	found org.scala-tools.sbt#interface;0.7.4 in sbt-db
+== resolving dependencies org.scala-tools.sbt#compile_2.7.7;0.7.4->org.scala-tools.sbt#ivy_2.7.7;0.7.4 [default->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.7.7 {default=[default(compile)]} in default
+excluding dependency: org.scala-lang#scala-compiler;2.7.7 {default=[default(compile)]} in default
+loadData of org.scala-tools.sbt#ivy_2.7.7;0.7.4 of rootConf=default
+	using redefined-public to resolve org.scala-tools.sbt#ivy_2.7.7;0.7.4
+redefined-public: Checking cache for: dependency: org.scala-tools.sbt#ivy_2.7.7;0.7.4 {default=[default(compile)]}
+	no ivy file in cache for org.scala-tools.sbt#ivy_2.7.7;0.7.4: tried /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/ivy_2.7.7/ivy-0.7.4.xml
+	no ivy file in cache for org.scala-tools.sbt#ivy_2.7.7;0.7.4: tried /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/ivy_2.7.7/ivy-0.7.4.xml
+	 trying /Users/lincoln/.ivy2/local/org.scala-tools.sbt/ivy_2.7.7/0.7.4/ivys/ivy.xml
+		tried /Users/lincoln/.ivy2/local/org.scala-tools.sbt/ivy_2.7.7/0.7.4/ivys/ivy.xml
+	local: resource not reachable for org.scala-tools.sbt#ivy_2.7.7;0.7.4: res=/Users/lincoln/.ivy2/local/org.scala-tools.sbt/ivy_2.7.7/0.7.4/ivys/ivy.xml
+	 trying /Users/lincoln/.ivy2/local/org.scala-tools.sbt/ivy_2.7.7/0.7.4/jars/ivy_2.7.7.jar
+		tried /Users/lincoln/.ivy2/local/org.scala-tools.sbt/ivy_2.7.7/0.7.4/jars/ivy_2.7.7.jar
+	local: resource not reachable for org.scala-tools.sbt#ivy_2.7.7;0.7.4: res=/Users/lincoln/.ivy2/local/org.scala-tools.sbt/ivy_2.7.7/0.7.4/jars/ivy_2.7.7.jar
+	local: no ivy file nor artifact found for org.scala-tools.sbt#ivy_2.7.7;0.7.4
+	no ivy file in cache for org.scala-tools.sbt#ivy_2.7.7;0.7.4: tried /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/ivy_2.7.7/ivy-0.7.4.xml
+	 trying file:///Users/lincoln/.m2/repository/org/scala-tools/sbt/ivy_2.7.7/0.7.4/ivy_2.7.7-0.7.4.pom
+		tried file:///Users/lincoln/.m2/repository/org/scala-tools/sbt/ivy_2.7.7/0.7.4/ivy_2.7.7-0.7.4.pom
+	Maven2 Local: resource not reachable for org/scala-tools/sbt#ivy_2.7.7;0.7.4: res=file:/Users/lincoln/.m2/repository/org/scala-tools/sbt/ivy_2.7.7/0.7.4/ivy_2.7.7-0.7.4.pom
+	 trying file:///Users/lincoln/.m2/repository/org/scala-tools/sbt/ivy_2.7.7/0.7.4/ivy_2.7.7-0.7.4.jar
+		tried file:///Users/lincoln/.m2/repository/org/scala-tools/sbt/ivy_2.7.7/0.7.4/ivy_2.7.7-0.7.4.jar
+	Maven2 Local: resource not reachable for org/scala-tools/sbt#ivy_2.7.7;0.7.4: res=file:/Users/lincoln/.m2/repository/org/scala-tools/sbt/ivy_2.7.7/0.7.4/ivy_2.7.7-0.7.4.jar
+	Maven2 Local: no ivy file nor artifact found for org.scala-tools.sbt#ivy_2.7.7;0.7.4
+	no ivy file in cache for org.scala-tools.sbt#ivy_2.7.7;0.7.4: tried /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/ivy_2.7.7/ivy-0.7.4.xml
+	 trying http://databinder.net/repo/org.scala-tools.sbt/ivy_2.7.7/0.7.4/ivys/ivy.xml
+		tried http://databinder.net/repo/org.scala-tools.sbt/ivy_2.7.7/0.7.4/ivys/ivy.xml
+	sbt-db: found md file for org.scala-tools.sbt#ivy_2.7.7;0.7.4
+		=> http://databinder.net/repo/org.scala-tools.sbt/ivy_2.7.7/0.7.4/ivys/ivy.xml (0.7.4)
+	parser = ivy parser
+	no ivy file in cache for org.scala-tools.sbt#ivy_2.7.7;0.7.4: tried /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/ivy_2.7.7/ivy-0.7.4.xml
+downloading http://databinder.net/repo/org.scala-tools.sbt/ivy_2.7.7/0.7.4/ivys/ivy.xml ...
+	sbt-db: downloading http://databinder.net/repo/org.scala-tools.sbt/ivy_2.7.7/0.7.4/ivys/ivy.xml
+		to /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/ivy_2.7.7/ivy-0.7.4.xml.original.part
+	[SUCCESSFUL ] org.scala-tools.sbt#ivy_2.7.7;0.7.4!ivy.xml(ivy.original) (111ms)
+pre 1.3 ivy file: using exactOrRegexp as default matcher
+	default-cache: parsed downloaded md file for org.scala-tools.sbt#ivy_2.7.7;0.7.4; parsed=org.scala-tools.sbt#ivy_2.7.7;0.7.4
+	checking org.scala-tools.sbt#ivy_2.7.7;0.7.4 from sbt-db against [none]
+	module revision kept as first found: org.scala-tools.sbt#ivy_2.7.7;0.7.4 from sbt-db
+	found org.scala-tools.sbt#ivy_2.7.7;0.7.4 in sbt-db
+== resolving dependencies org.scala-tools.sbt#ivy_2.7.7;0.7.4->org.apache.ivy#ivy;2.1.0 [default->default(compile)]
+loadData of org.apache.ivy#ivy;2.1.0 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#ivy_2.7.7;0.7.4->org.apache.ivy#ivy;2.1.0 [default->runtime]
+loadData of org.apache.ivy#ivy;2.1.0 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#ivy_2.7.7;0.7.4->org.apache.ivy#ivy;2.1.0 [default->compile]
+loadData of org.apache.ivy#ivy;2.1.0 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#ivy_2.7.7;0.7.4->org.apache.ivy#ivy;2.1.0 [default->master]
+loadData of org.apache.ivy#ivy;2.1.0 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#ivy_2.7.7;0.7.4->org.scala-tools.sbt#interface;0.7.4 [default->default(compile)]
+loadData of org.scala-tools.sbt#interface;0.7.4 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#ivy_2.7.7;0.7.4->org.scala-tools.sbt#launcher-interface;0.7.4 [default->default(compile)]
+loadData of org.scala-tools.sbt#launcher-interface;0.7.4 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#compile_2.7.7;0.7.4->org.scala-tools.sbt#io_2.7.7;0.7.4 [default->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.7.7 {default=[default(compile)]} in default
+excluding dependency: org.scala-lang#scala-compiler;2.7.7 {default=[default(compile)]} in default
+loadData of org.scala-tools.sbt#io_2.7.7;0.7.4 of rootConf=default
+	using redefined-public to resolve org.scala-tools.sbt#io_2.7.7;0.7.4
+redefined-public: Checking cache for: dependency: org.scala-tools.sbt#io_2.7.7;0.7.4 {default=[default(compile)]}
+	no ivy file in cache for org.scala-tools.sbt#io_2.7.7;0.7.4: tried /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/io_2.7.7/ivy-0.7.4.xml
+	no ivy file in cache for org.scala-tools.sbt#io_2.7.7;0.7.4: tried /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/io_2.7.7/ivy-0.7.4.xml
+	 trying /Users/lincoln/.ivy2/local/org.scala-tools.sbt/io_2.7.7/0.7.4/ivys/ivy.xml
+		tried /Users/lincoln/.ivy2/local/org.scala-tools.sbt/io_2.7.7/0.7.4/ivys/ivy.xml
+	local: resource not reachable for org.scala-tools.sbt#io_2.7.7;0.7.4: res=/Users/lincoln/.ivy2/local/org.scala-tools.sbt/io_2.7.7/0.7.4/ivys/ivy.xml
+	 trying /Users/lincoln/.ivy2/local/org.scala-tools.sbt/io_2.7.7/0.7.4/jars/io_2.7.7.jar
+		tried /Users/lincoln/.ivy2/local/org.scala-tools.sbt/io_2.7.7/0.7.4/jars/io_2.7.7.jar
+	local: resource not reachable for org.scala-tools.sbt#io_2.7.7;0.7.4: res=/Users/lincoln/.ivy2/local/org.scala-tools.sbt/io_2.7.7/0.7.4/jars/io_2.7.7.jar
+	local: no ivy file nor artifact found for org.scala-tools.sbt#io_2.7.7;0.7.4
+	no ivy file in cache for org.scala-tools.sbt#io_2.7.7;0.7.4: tried /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/io_2.7.7/ivy-0.7.4.xml
+	 trying file:///Users/lincoln/.m2/repository/org/scala-tools/sbt/io_2.7.7/0.7.4/io_2.7.7-0.7.4.pom
+		tried file:///Users/lincoln/.m2/repository/org/scala-tools/sbt/io_2.7.7/0.7.4/io_2.7.7-0.7.4.pom
+	Maven2 Local: resource not reachable for org/scala-tools/sbt#io_2.7.7;0.7.4: res=file:/Users/lincoln/.m2/repository/org/scala-tools/sbt/io_2.7.7/0.7.4/io_2.7.7-0.7.4.pom
+	 trying file:///Users/lincoln/.m2/repository/org/scala-tools/sbt/io_2.7.7/0.7.4/io_2.7.7-0.7.4.jar
+		tried file:///Users/lincoln/.m2/repository/org/scala-tools/sbt/io_2.7.7/0.7.4/io_2.7.7-0.7.4.jar
+	Maven2 Local: resource not reachable for org/scala-tools/sbt#io_2.7.7;0.7.4: res=file:/Users/lincoln/.m2/repository/org/scala-tools/sbt/io_2.7.7/0.7.4/io_2.7.7-0.7.4.jar
+	Maven2 Local: no ivy file nor artifact found for org.scala-tools.sbt#io_2.7.7;0.7.4
+	no ivy file in cache for org.scala-tools.sbt#io_2.7.7;0.7.4: tried /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/io_2.7.7/ivy-0.7.4.xml
+	 trying http://databinder.net/repo/org.scala-tools.sbt/io_2.7.7/0.7.4/ivys/ivy.xml
+		tried http://databinder.net/repo/org.scala-tools.sbt/io_2.7.7/0.7.4/ivys/ivy.xml
+	sbt-db: found md file for org.scala-tools.sbt#io_2.7.7;0.7.4
+		=> http://databinder.net/repo/org.scala-tools.sbt/io_2.7.7/0.7.4/ivys/ivy.xml (0.7.4)
+	parser = ivy parser
+	no ivy file in cache for org.scala-tools.sbt#io_2.7.7;0.7.4: tried /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/io_2.7.7/ivy-0.7.4.xml
+downloading http://databinder.net/repo/org.scala-tools.sbt/io_2.7.7/0.7.4/ivys/ivy.xml ...
+	sbt-db: downloading http://databinder.net/repo/org.scala-tools.sbt/io_2.7.7/0.7.4/ivys/ivy.xml
+		to /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/io_2.7.7/ivy-0.7.4.xml.original.part
+	[SUCCESSFUL ] org.scala-tools.sbt#io_2.7.7;0.7.4!ivy.xml(ivy.original) (63ms)
+pre 1.3 ivy file: using exactOrRegexp as default matcher
+	default-cache: parsed downloaded md file for org.scala-tools.sbt#io_2.7.7;0.7.4; parsed=org.scala-tools.sbt#io_2.7.7;0.7.4
+	checking org.scala-tools.sbt#io_2.7.7;0.7.4 from sbt-db against [none]
+	module revision kept as first found: org.scala-tools.sbt#io_2.7.7;0.7.4 from sbt-db
+	found org.scala-tools.sbt#io_2.7.7;0.7.4 in sbt-db
+== resolving dependencies org.scala-tools.sbt#io_2.7.7;0.7.4->org.scala-tools.sbt#control_2.7.7;0.7.4 [default->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.7.7 {default=[default(compile)]} in default
+excluding dependency: org.scala-lang#scala-compiler;2.7.7 {default=[default(compile)]} in default
+loadData of org.scala-tools.sbt#control_2.7.7;0.7.4 of rootConf=default
+	using redefined-public to resolve org.scala-tools.sbt#control_2.7.7;0.7.4
+redefined-public: Checking cache for: dependency: org.scala-tools.sbt#control_2.7.7;0.7.4 {default=[default(compile)]}
+	no ivy file in cache for org.scala-tools.sbt#control_2.7.7;0.7.4: tried /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/control_2.7.7/ivy-0.7.4.xml
+	no ivy file in cache for org.scala-tools.sbt#control_2.7.7;0.7.4: tried /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/control_2.7.7/ivy-0.7.4.xml
+	 trying /Users/lincoln/.ivy2/local/org.scala-tools.sbt/control_2.7.7/0.7.4/ivys/ivy.xml
+		tried /Users/lincoln/.ivy2/local/org.scala-tools.sbt/control_2.7.7/0.7.4/ivys/ivy.xml
+	local: resource not reachable for org.scala-tools.sbt#control_2.7.7;0.7.4: res=/Users/lincoln/.ivy2/local/org.scala-tools.sbt/control_2.7.7/0.7.4/ivys/ivy.xml
+	 trying /Users/lincoln/.ivy2/local/org.scala-tools.sbt/control_2.7.7/0.7.4/jars/control_2.7.7.jar
+		tried /Users/lincoln/.ivy2/local/org.scala-tools.sbt/control_2.7.7/0.7.4/jars/control_2.7.7.jar
+	local: resource not reachable for org.scala-tools.sbt#control_2.7.7;0.7.4: res=/Users/lincoln/.ivy2/local/org.scala-tools.sbt/control_2.7.7/0.7.4/jars/control_2.7.7.jar
+	local: no ivy file nor artifact found for org.scala-tools.sbt#control_2.7.7;0.7.4
+	no ivy file in cache for org.scala-tools.sbt#control_2.7.7;0.7.4: tried /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/control_2.7.7/ivy-0.7.4.xml
+	 trying file:///Users/lincoln/.m2/repository/org/scala-tools/sbt/control_2.7.7/0.7.4/control_2.7.7-0.7.4.pom
+		tried file:///Users/lincoln/.m2/repository/org/scala-tools/sbt/control_2.7.7/0.7.4/control_2.7.7-0.7.4.pom
+	Maven2 Local: resource not reachable for org/scala-tools/sbt#control_2.7.7;0.7.4: res=file:/Users/lincoln/.m2/repository/org/scala-tools/sbt/control_2.7.7/0.7.4/control_2.7.7-0.7.4.pom
+	 trying file:///Users/lincoln/.m2/repository/org/scala-tools/sbt/control_2.7.7/0.7.4/control_2.7.7-0.7.4.jar
+		tried file:///Users/lincoln/.m2/repository/org/scala-tools/sbt/control_2.7.7/0.7.4/control_2.7.7-0.7.4.jar
+	Maven2 Local: resource not reachable for org/scala-tools/sbt#control_2.7.7;0.7.4: res=file:/Users/lincoln/.m2/repository/org/scala-tools/sbt/control_2.7.7/0.7.4/control_2.7.7-0.7.4.jar
+	Maven2 Local: no ivy file nor artifact found for org.scala-tools.sbt#control_2.7.7;0.7.4
+	no ivy file in cache for org.scala-tools.sbt#control_2.7.7;0.7.4: tried /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/control_2.7.7/ivy-0.7.4.xml
+	 trying http://databinder.net/repo/org.scala-tools.sbt/control_2.7.7/0.7.4/ivys/ivy.xml
+		tried http://databinder.net/repo/org.scala-tools.sbt/control_2.7.7/0.7.4/ivys/ivy.xml
+	sbt-db: found md file for org.scala-tools.sbt#control_2.7.7;0.7.4
+		=> http://databinder.net/repo/org.scala-tools.sbt/control_2.7.7/0.7.4/ivys/ivy.xml (0.7.4)
+	parser = ivy parser
+	no ivy file in cache for org.scala-tools.sbt#control_2.7.7;0.7.4: tried /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/control_2.7.7/ivy-0.7.4.xml
+downloading http://databinder.net/repo/org.scala-tools.sbt/control_2.7.7/0.7.4/ivys/ivy.xml ...
+	sbt-db: downloading http://databinder.net/repo/org.scala-tools.sbt/control_2.7.7/0.7.4/ivys/ivy.xml
+		to /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/control_2.7.7/ivy-0.7.4.xml.original.part
+	[SUCCESSFUL ] org.scala-tools.sbt#control_2.7.7;0.7.4!ivy.xml(ivy.original) (57ms)
+pre 1.3 ivy file: using exactOrRegexp as default matcher
+	default-cache: parsed downloaded md file for org.scala-tools.sbt#control_2.7.7;0.7.4; parsed=org.scala-tools.sbt#control_2.7.7;0.7.4
+	checking org.scala-tools.sbt#control_2.7.7;0.7.4 from sbt-db against [none]
+	module revision kept as first found: org.scala-tools.sbt#control_2.7.7;0.7.4 from sbt-db
+	found org.scala-tools.sbt#control_2.7.7;0.7.4 in sbt-db
+== resolving dependencies org.scala-tools.sbt#compile_2.7.7;0.7.4->org.scala-tools.sbt#classpath_2.7.7;0.7.4 [default->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.7.7 {default=[default(compile)]} in default
+excluding dependency: org.scala-lang#scala-compiler;2.7.7 {default=[default(compile)]} in default
+loadData of org.scala-tools.sbt#classpath_2.7.7;0.7.4 of rootConf=default
+	using redefined-public to resolve org.scala-tools.sbt#classpath_2.7.7;0.7.4
+redefined-public: Checking cache for: dependency: org.scala-tools.sbt#classpath_2.7.7;0.7.4 {default=[default(compile)]}
+	no ivy file in cache for org.scala-tools.sbt#classpath_2.7.7;0.7.4: tried /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/classpath_2.7.7/ivy-0.7.4.xml
+	no ivy file in cache for org.scala-tools.sbt#classpath_2.7.7;0.7.4: tried /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/classpath_2.7.7/ivy-0.7.4.xml
+	 trying /Users/lincoln/.ivy2/local/org.scala-tools.sbt/classpath_2.7.7/0.7.4/ivys/ivy.xml
+		tried /Users/lincoln/.ivy2/local/org.scala-tools.sbt/classpath_2.7.7/0.7.4/ivys/ivy.xml
+	local: resource not reachable for org.scala-tools.sbt#classpath_2.7.7;0.7.4: res=/Users/lincoln/.ivy2/local/org.scala-tools.sbt/classpath_2.7.7/0.7.4/ivys/ivy.xml
+	 trying /Users/lincoln/.ivy2/local/org.scala-tools.sbt/classpath_2.7.7/0.7.4/jars/classpath_2.7.7.jar
+		tried /Users/lincoln/.ivy2/local/org.scala-tools.sbt/classpath_2.7.7/0.7.4/jars/classpath_2.7.7.jar
+	local: resource not reachable for org.scala-tools.sbt#classpath_2.7.7;0.7.4: res=/Users/lincoln/.ivy2/local/org.scala-tools.sbt/classpath_2.7.7/0.7.4/jars/classpath_2.7.7.jar
+	local: no ivy file nor artifact found for org.scala-tools.sbt#classpath_2.7.7;0.7.4
+	no ivy file in cache for org.scala-tools.sbt#classpath_2.7.7;0.7.4: tried /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/classpath_2.7.7/ivy-0.7.4.xml
+	 trying file:///Users/lincoln/.m2/repository/org/scala-tools/sbt/classpath_2.7.7/0.7.4/classpath_2.7.7-0.7.4.pom
+		tried file:///Users/lincoln/.m2/repository/org/scala-tools/sbt/classpath_2.7.7/0.7.4/classpath_2.7.7-0.7.4.pom
+	Maven2 Local: resource not reachable for org/scala-tools/sbt#classpath_2.7.7;0.7.4: res=file:/Users/lincoln/.m2/repository/org/scala-tools/sbt/classpath_2.7.7/0.7.4/classpath_2.7.7-0.7.4.pom
+	 trying file:///Users/lincoln/.m2/repository/org/scala-tools/sbt/classpath_2.7.7/0.7.4/classpath_2.7.7-0.7.4.jar
+		tried file:///Users/lincoln/.m2/repository/org/scala-tools/sbt/classpath_2.7.7/0.7.4/classpath_2.7.7-0.7.4.jar
+	Maven2 Local: resource not reachable for org/scala-tools/sbt#classpath_2.7.7;0.7.4: res=file:/Users/lincoln/.m2/repository/org/scala-tools/sbt/classpath_2.7.7/0.7.4/classpath_2.7.7-0.7.4.jar
+	Maven2 Local: no ivy file nor artifact found for org.scala-tools.sbt#classpath_2.7.7;0.7.4
+	no ivy file in cache for org.scala-tools.sbt#classpath_2.7.7;0.7.4: tried /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/classpath_2.7.7/ivy-0.7.4.xml
+	 trying http://databinder.net/repo/org.scala-tools.sbt/classpath_2.7.7/0.7.4/ivys/ivy.xml
+		tried http://databinder.net/repo/org.scala-tools.sbt/classpath_2.7.7/0.7.4/ivys/ivy.xml
+	sbt-db: found md file for org.scala-tools.sbt#classpath_2.7.7;0.7.4
+		=> http://databinder.net/repo/org.scala-tools.sbt/classpath_2.7.7/0.7.4/ivys/ivy.xml (0.7.4)
+	parser = ivy parser
+	no ivy file in cache for org.scala-tools.sbt#classpath_2.7.7;0.7.4: tried /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/classpath_2.7.7/ivy-0.7.4.xml
+downloading http://databinder.net/repo/org.scala-tools.sbt/classpath_2.7.7/0.7.4/ivys/ivy.xml ...
+	sbt-db: downloading http://databinder.net/repo/org.scala-tools.sbt/classpath_2.7.7/0.7.4/ivys/ivy.xml
+		to /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/classpath_2.7.7/ivy-0.7.4.xml.original.part
+	[SUCCESSFUL ] org.scala-tools.sbt#classpath_2.7.7;0.7.4!ivy.xml(ivy.original) (93ms)
+pre 1.3 ivy file: using exactOrRegexp as default matcher
+	default-cache: parsed downloaded md file for org.scala-tools.sbt#classpath_2.7.7;0.7.4; parsed=org.scala-tools.sbt#classpath_2.7.7;0.7.4
+	checking org.scala-tools.sbt#classpath_2.7.7;0.7.4 from sbt-db against [none]
+	module revision kept as first found: org.scala-tools.sbt#classpath_2.7.7;0.7.4 from sbt-db
+	found org.scala-tools.sbt#classpath_2.7.7;0.7.4 in sbt-db
+== resolving dependencies org.scala-tools.sbt#compile_2.7.7;0.7.4->org.scala-tools.sbt#compiler-interface;0.7.4 [default->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.7.7 {default=[default(compile)]} in default
+excluding dependency: org.scala-lang#scala-compiler;2.7.7 {default=[default(compile)]} in default
+loadData of org.scala-tools.sbt#compiler-interface;0.7.4 of rootConf=default
+	using redefined-public to resolve org.scala-tools.sbt#compiler-interface;0.7.4
+redefined-public: Checking cache for: dependency: org.scala-tools.sbt#compiler-interface;0.7.4 {default=[default(compile)]}
+	no ivy file in cache for org.scala-tools.sbt#compiler-interface;0.7.4: tried /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/compiler-interface/ivy-0.7.4.xml
+	no ivy file in cache for org.scala-tools.sbt#compiler-interface;0.7.4: tried /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/compiler-interface/ivy-0.7.4.xml
+	 trying /Users/lincoln/.ivy2/local/org.scala-tools.sbt/compiler-interface/0.7.4/ivys/ivy.xml
+		tried /Users/lincoln/.ivy2/local/org.scala-tools.sbt/compiler-interface/0.7.4/ivys/ivy.xml
+	local: resource not reachable for org.scala-tools.sbt#compiler-interface;0.7.4: res=/Users/lincoln/.ivy2/local/org.scala-tools.sbt/compiler-interface/0.7.4/ivys/ivy.xml
+	 trying /Users/lincoln/.ivy2/local/org.scala-tools.sbt/compiler-interface/0.7.4/jars/compiler-interface.jar
+		tried /Users/lincoln/.ivy2/local/org.scala-tools.sbt/compiler-interface/0.7.4/jars/compiler-interface.jar
+	local: resource not reachable for org.scala-tools.sbt#compiler-interface;0.7.4: res=/Users/lincoln/.ivy2/local/org.scala-tools.sbt/compiler-interface/0.7.4/jars/compiler-interface.jar
+	local: no ivy file nor artifact found for org.scala-tools.sbt#compiler-interface;0.7.4
+	no ivy file in cache for org.scala-tools.sbt#compiler-interface;0.7.4: tried /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/compiler-interface/ivy-0.7.4.xml
+	 trying file:///Users/lincoln/.m2/repository/org/scala-tools/sbt/compiler-interface/0.7.4/compiler-interface-0.7.4.pom
+		tried file:///Users/lincoln/.m2/repository/org/scala-tools/sbt/compiler-interface/0.7.4/compiler-interface-0.7.4.pom
+	Maven2 Local: resource not reachable for org/scala-tools/sbt#compiler-interface;0.7.4: res=file:/Users/lincoln/.m2/repository/org/scala-tools/sbt/compiler-interface/0.7.4/compiler-interface-0.7.4.pom
+	 trying file:///Users/lincoln/.m2/repository/org/scala-tools/sbt/compiler-interface/0.7.4/compiler-interface-0.7.4.jar
+		tried file:///Users/lincoln/.m2/repository/org/scala-tools/sbt/compiler-interface/0.7.4/compiler-interface-0.7.4.jar
+	Maven2 Local: resource not reachable for org/scala-tools/sbt#compiler-interface;0.7.4: res=file:/Users/lincoln/.m2/repository/org/scala-tools/sbt/compiler-interface/0.7.4/compiler-interface-0.7.4.jar
+	Maven2 Local: no ivy file nor artifact found for org.scala-tools.sbt#compiler-interface;0.7.4
+	no ivy file in cache for org.scala-tools.sbt#compiler-interface;0.7.4: tried /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/compiler-interface/ivy-0.7.4.xml
+	 trying http://databinder.net/repo/org.scala-tools.sbt/compiler-interface/0.7.4/ivys/ivy.xml
+		tried http://databinder.net/repo/org.scala-tools.sbt/compiler-interface/0.7.4/ivys/ivy.xml
+	sbt-db: found md file for org.scala-tools.sbt#compiler-interface;0.7.4
+		=> http://databinder.net/repo/org.scala-tools.sbt/compiler-interface/0.7.4/ivys/ivy.xml (0.7.4)
+	parser = ivy parser
+	no ivy file in cache for org.scala-tools.sbt#compiler-interface;0.7.4: tried /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/compiler-interface/ivy-0.7.4.xml
+downloading http://databinder.net/repo/org.scala-tools.sbt/compiler-interface/0.7.4/ivys/ivy.xml ...
+	sbt-db: downloading http://databinder.net/repo/org.scala-tools.sbt/compiler-interface/0.7.4/ivys/ivy.xml
+		to /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/compiler-interface/ivy-0.7.4.xml.original.part
+	[SUCCESSFUL ] org.scala-tools.sbt#compiler-interface;0.7.4!ivy.xml(ivy.original) (85ms)
+pre 1.3 ivy file: using exactOrRegexp as default matcher
+	default-cache: parsed downloaded md file for org.scala-tools.sbt#compiler-interface;0.7.4; parsed=org.scala-tools.sbt#compiler-interface;0.7.4
+	checking org.scala-tools.sbt#compiler-interface;0.7.4 from sbt-db against [none]
+	module revision kept as first found: org.scala-tools.sbt#compiler-interface;0.7.4 from sbt-db
+	found org.scala-tools.sbt#compiler-interface;0.7.4 in sbt-db
+== resolving dependencies org.scala-tools.sbt#compiler-interface;0.7.4->jline#jline;0.9.94 [default->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.7.7 {default=[default(compile)]} in default
+excluding dependency: org.scala-lang#scala-compiler;2.7.7 {default=[default(compile)]} in default
+loadData of jline#jline;0.9.94 of rootConf=default
+	using redefined-public to resolve jline#jline;0.9.94
+redefined-public: Checking cache for: dependency: jline#jline;0.9.94 {default=[default(compile)]}
+	no ivy file in cache for jline#jline;0.9.94: tried /Users/lincoln/.ivy2/cache/jline/jline/ivy-0.9.94.xml
+	no ivy file in cache for jline#jline;0.9.94: tried /Users/lincoln/.ivy2/cache/jline/jline/ivy-0.9.94.xml
+	 trying /Users/lincoln/.ivy2/local/jline/jline/0.9.94/ivys/ivy.xml
+		tried /Users/lincoln/.ivy2/local/jline/jline/0.9.94/ivys/ivy.xml
+	local: resource not reachable for jline#jline;0.9.94: res=/Users/lincoln/.ivy2/local/jline/jline/0.9.94/ivys/ivy.xml
+	 trying /Users/lincoln/.ivy2/local/jline/jline/0.9.94/jars/jline.jar
+		tried /Users/lincoln/.ivy2/local/jline/jline/0.9.94/jars/jline.jar
+	local: resource not reachable for jline#jline;0.9.94: res=/Users/lincoln/.ivy2/local/jline/jline/0.9.94/jars/jline.jar
+	local: no ivy file nor artifact found for jline#jline;0.9.94
+	no ivy file in cache for jline#jline;0.9.94: tried /Users/lincoln/.ivy2/cache/jline/jline/ivy-0.9.94.xml
+	 trying file:///Users/lincoln/.m2/repository/jline/jline/0.9.94/jline-0.9.94.pom
+		tried file:///Users/lincoln/.m2/repository/jline/jline/0.9.94/jline-0.9.94.pom
+	Maven2 Local: resource not reachable for jline#jline;0.9.94: res=file:/Users/lincoln/.m2/repository/jline/jline/0.9.94/jline-0.9.94.pom
+	 trying file:///Users/lincoln/.m2/repository/jline/jline/0.9.94/jline-0.9.94.jar
+		tried file:///Users/lincoln/.m2/repository/jline/jline/0.9.94/jline-0.9.94.jar
+	Maven2 Local: resource not reachable for jline#jline;0.9.94: res=file:/Users/lincoln/.m2/repository/jline/jline/0.9.94/jline-0.9.94.jar
+	Maven2 Local: no ivy file nor artifact found for jline#jline;0.9.94
+	no ivy file in cache for jline#jline;0.9.94: tried /Users/lincoln/.ivy2/cache/jline/jline/ivy-0.9.94.xml
+	 trying http://databinder.net/repo/jline/jline/0.9.94/ivys/ivy.xml
+		tried http://databinder.net/repo/jline/jline/0.9.94/ivys/ivy.xml
+HTTP response status: 404 url=http://databinder.net/repo/jline/jline/0.9.94/ivys/ivy.xml
+CLIENT ERROR: Not Found url=http://databinder.net/repo/jline/jline/0.9.94/ivys/ivy.xml
+	sbt-db: resource not reachable for jline#jline;0.9.94: res=http://databinder.net/repo/jline/jline/0.9.94/ivys/ivy.xml
+	 trying http://databinder.net/repo/jline/jline/0.9.94/jars/jline.jar
+		tried http://databinder.net/repo/jline/jline/0.9.94/jars/jline.jar
+HTTP response status: 404 url=http://databinder.net/repo/jline/jline/0.9.94/jars/jline.jar
+CLIENT ERROR: Not Found url=http://databinder.net/repo/jline/jline/0.9.94/jars/jline.jar
+	sbt-db: resource not reachable for jline#jline;0.9.94: res=http://databinder.net/repo/jline/jline/0.9.94/jars/jline.jar
+	sbt-db: no ivy file nor artifact found for jline#jline;0.9.94
+	no ivy file in cache for jline#jline;0.9.94: tried /Users/lincoln/.ivy2/cache/jline/jline/ivy-0.9.94.xml
+	 trying http://repo1.maven.org/maven2/jline/jline/0.9.94/jline-0.9.94.pom
+		tried http://repo1.maven.org/maven2/jline/jline/0.9.94/jline-0.9.94.pom
+	Maven Central: found md file for jline#jline;0.9.94
+		=> http://repo1.maven.org/maven2/jline/jline/0.9.94/jline-0.9.94.pom (0.9.94)
+	parser = pom parser
+	no ivy file in cache for jline#jline;0.9.94: tried /Users/lincoln/.ivy2/cache/jline/jline/ivy-0.9.94.xml
+downloading http://repo1.maven.org/maven2/jline/jline/0.9.94/jline-0.9.94.pom ...
+	Maven Central: downloading http://repo1.maven.org/maven2/jline/jline/0.9.94/jline-0.9.94.pom
+		to /Users/lincoln/.ivy2/cache/jline/jline/ivy-0.9.94.xml.original.part
+	[SUCCESSFUL ] jline#jline;0.9.94!jline.pom(pom.original) (894ms)
+	 trying /Users/lincoln/.ivy2/local/jline/jline/0.9.94/jars/jline.jar
+		tried /Users/lincoln/.ivy2/local/jline/jline/0.9.94/jars/jline.jar
+	local: resource not reachable for jline#jline;0.9.94: res=/Users/lincoln/.ivy2/local/jline/jline/0.9.94/jars/jline.jar
+	 trying file:///Users/lincoln/.m2/repository/jline/jline/0.9.94/jline-0.9.94.jar
+		tried file:///Users/lincoln/.m2/repository/jline/jline/0.9.94/jline-0.9.94.jar
+	Maven2 Local: resource not reachable for jline#jline;0.9.94: res=file:/Users/lincoln/.m2/repository/jline/jline/0.9.94/jline-0.9.94.jar
+	 trying http://databinder.net/repo/jline/jline/0.9.94/jars/jline.jar
+		tried http://databinder.net/repo/jline/jline/0.9.94/jars/jline.jar
+	sbt-db: resource not reachable for jline#jline;0.9.94: res=http://databinder.net/repo/jline/jline/0.9.94/jars/jline.jar
+	 trying http://repo1.maven.org/maven2/jline/jline/0.9.94/jline-0.9.94.jar
+		tried http://repo1.maven.org/maven2/jline/jline/0.9.94/jline-0.9.94.jar
+	 trying /Users/lincoln/.ivy2/local/jline/jline/0.9.94/sources/jline-sources.jar
+		tried /Users/lincoln/.ivy2/local/jline/jline/0.9.94/sources/jline-sources.jar
+	local: resource not reachable for jline#jline;0.9.94: res=/Users/lincoln/.ivy2/local/jline/jline/0.9.94/sources/jline-sources.jar
+	 trying file:///Users/lincoln/.m2/repository/jline/jline/0.9.94/jline-0.9.94-sources.jar
+		tried file:///Users/lincoln/.m2/repository/jline/jline/0.9.94/jline-0.9.94-sources.jar
+	Maven2 Local: resource not reachable for jline#jline;0.9.94: res=file:/Users/lincoln/.m2/repository/jline/jline/0.9.94/jline-0.9.94-sources.jar
+	 trying http://databinder.net/repo/jline/jline/0.9.94/sources/jline-sources.jar
+		tried http://databinder.net/repo/jline/jline/0.9.94/sources/jline-sources.jar
+HTTP response status: 404 url=http://databinder.net/repo/jline/jline/0.9.94/sources/jline-sources.jar
+CLIENT ERROR: Not Found url=http://databinder.net/repo/jline/jline/0.9.94/sources/jline-sources.jar
+	sbt-db: resource not reachable for jline#jline;0.9.94: res=http://databinder.net/repo/jline/jline/0.9.94/sources/jline-sources.jar
+	 trying http://repo1.maven.org/maven2/jline/jline/0.9.94/jline-0.9.94-sources.jar
+		tried http://repo1.maven.org/maven2/jline/jline/0.9.94/jline-0.9.94-sources.jar
+source artifact found for jline#jline;0.9.94
+	 trying /Users/lincoln/.ivy2/local/jline/jline/0.9.94/javadocs/jline-javadoc.jar
+		tried /Users/lincoln/.ivy2/local/jline/jline/0.9.94/javadocs/jline-javadoc.jar
+	local: resource not reachable for jline#jline;0.9.94: res=/Users/lincoln/.ivy2/local/jline/jline/0.9.94/javadocs/jline-javadoc.jar
+	 trying file:///Users/lincoln/.m2/repository/jline/jline/0.9.94/jline-0.9.94-javadoc.jar
+		tried file:///Users/lincoln/.m2/repository/jline/jline/0.9.94/jline-0.9.94-javadoc.jar
+	Maven2 Local: resource not reachable for jline#jline;0.9.94: res=file:/Users/lincoln/.m2/repository/jline/jline/0.9.94/jline-0.9.94-javadoc.jar
+	 trying http://databinder.net/repo/jline/jline/0.9.94/javadocs/jline-javadoc.jar
+		tried http://databinder.net/repo/jline/jline/0.9.94/javadocs/jline-javadoc.jar
+HTTP response status: 404 url=http://databinder.net/repo/jline/jline/0.9.94/javadocs/jline-javadoc.jar
+CLIENT ERROR: Not Found url=http://databinder.net/repo/jline/jline/0.9.94/javadocs/jline-javadoc.jar
+	sbt-db: resource not reachable for jline#jline;0.9.94: res=http://databinder.net/repo/jline/jline/0.9.94/javadocs/jline-javadoc.jar
+	 trying http://repo1.maven.org/maven2/jline/jline/0.9.94/jline-0.9.94-javadoc.jar
+		tried http://repo1.maven.org/maven2/jline/jline/0.9.94/jline-0.9.94-javadoc.jar
+HTTP response status: 404 url=http://repo1.maven.org/maven2/jline/jline/0.9.94/jline-0.9.94-javadoc.jar
+CLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/jline/jline/0.9.94/jline-0.9.94-javadoc.jar
+	Maven Central: resource not reachable for jline#jline;0.9.94: res=http://repo1.maven.org/maven2/jline/jline/0.9.94/jline-0.9.94-javadoc.jar
+	 trying http://scala-tools.org/repo-releases/jline/jline/0.9.94/jline-0.9.94-javadoc.jar
+		tried http://scala-tools.org/repo-releases/jline/jline/0.9.94/jline-0.9.94-javadoc.jar
+HTTP response status: 404 url=http://scala-tools.org/repo-releases/jline/jline/0.9.94/jline-0.9.94-javadoc.jar
+CLIENT ERROR: Not Found url=http://scala-tools.org/repo-releases/jline/jline/0.9.94/jline-0.9.94-javadoc.jar
+	Scala-Tools Maven2 Repository: resource not reachable for jline#jline;0.9.94: res=http://scala-tools.org/repo-releases/jline/jline/0.9.94/jline-0.9.94-javadoc.jar
+	 trying http://scala-tools.org/repo-snapshots/jline/jline/0.9.94/jline-0.9.94-javadoc.jar
+		tried http://scala-tools.org/repo-snapshots/jline/jline/0.9.94/jline-0.9.94-javadoc.jar
+HTTP response status: 404 url=http://scala-tools.org/repo-snapshots/jline/jline/0.9.94/jline-0.9.94-javadoc.jar
+CLIENT ERROR: Not Found url=http://scala-tools.org/repo-snapshots/jline/jline/0.9.94/jline-0.9.94-javadoc.jar
+	Scala-Tools Maven2 Snapshots Repository: resource not reachable for jline#jline;0.9.94: res=http://scala-tools.org/repo-snapshots/jline/jline/0.9.94/jline-0.9.94-javadoc.jar
+no javadoc artifact found for jline#jline;0.9.94
+	default-cache: parsed downloaded md file for jline#jline;0.9.94; parsed=jline#jline;0.9.94
+	checking jline#jline;0.9.94 from Maven Central against [none]
+	module revision kept as first found: jline#jline;0.9.94 from Maven Central
+	found jline#jline;0.9.94 in Maven Central
+== resolving dependencies org.scala-tools.sbt#compiler-interface;0.7.4->jline#jline;0.9.94 [default->runtime]
+loadData of jline#jline;0.9.94 of rootConf=default
+== resolving dependencies org.scala-tools.sbt#compiler-interface;0.7.4->jline#jline;0.9.94 [default->compile]
+loadData of jline#jline;0.9.94 of rootConf=default
+== resolving dependencies org.scala-tools.sbt#compiler-interface;0.7.4->jline#jline;0.9.94 [default->master]
+loadData of jline#jline;0.9.94 of rootConf=default
+== resolving dependencies org.scala-tools.sbt#compiler-interface;0.7.4->org.scala-tools.sbt#interface;0.7.4 [default->default(compile)]
+loadData of org.scala-tools.sbt#interface;0.7.4 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#compiler-interface;0.7.4->org.scala-tools.sbt#precompiled-2.8.0.rc2_2.8.0.RC2;0.7.4 [default->default(compile)]
+excluding dependency: org.scala-lang#scala-library;2.7.7 {default=[default(compile)]} in default
+excluding dependency: org.scala-lang#scala-compiler;2.7.7 {default=[default(compile)]} in default
+loadData of org.scala-tools.sbt#precompiled-2.8.0.rc2_2.8.0.RC2;0.7.4 of rootConf=default
+	using redefined-public to resolve org.scala-tools.sbt#precompiled-2.8.0.rc2_2.8.0.RC2;0.7.4
+redefined-public: Checking cache for: dependency: org.scala-tools.sbt#precompiled-2.8.0.rc2_2.8.0.RC2;0.7.4 {default=[default(compile)]}
+	no ivy file in cache for org.scala-tools.sbt#precompiled-2.8.0.rc2_2.8.0.RC2;0.7.4: tried /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/precompiled-2.8.0.rc2_2.8.0.RC2/ivy-0.7.4.xml
+	no ivy file in cache for org.scala-tools.sbt#precompiled-2.8.0.rc2_2.8.0.RC2;0.7.4: tried /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/precompiled-2.8.0.rc2_2.8.0.RC2/ivy-0.7.4.xml
+	 trying /Users/lincoln/.ivy2/local/org.scala-tools.sbt/precompiled-2.8.0.rc2_2.8.0.RC2/0.7.4/ivys/ivy.xml
+		tried /Users/lincoln/.ivy2/local/org.scala-tools.sbt/precompiled-2.8.0.rc2_2.8.0.RC2/0.7.4/ivys/ivy.xml
+	local: resource not reachable for org.scala-tools.sbt#precompiled-2.8.0.rc2_2.8.0.RC2;0.7.4: res=/Users/lincoln/.ivy2/local/org.scala-tools.sbt/precompiled-2.8.0.rc2_2.8.0.RC2/0.7.4/ivys/ivy.xml
+	 trying /Users/lincoln/.ivy2/local/org.scala-tools.sbt/precompiled-2.8.0.rc2_2.8.0.RC2/0.7.4/jars/precompiled-2.8.0.rc2_2.8.0.RC2.jar
+		tried /Users/lincoln/.ivy2/local/org.scala-tools.sbt/precompiled-2.8.0.rc2_2.8.0.RC2/0.7.4/jars/precompiled-2.8.0.rc2_2.8.0.RC2.jar
+	local: resource not reachable for org.scala-tools.sbt#precompiled-2.8.0.rc2_2.8.0.RC2;0.7.4: res=/Users/lincoln/.ivy2/local/org.scala-tools.sbt/precompiled-2.8.0.rc2_2.8.0.RC2/0.7.4/jars/precompiled-2.8.0.rc2_2.8.0.RC2.jar
+	local: no ivy file nor artifact found for org.scala-tools.sbt#precompiled-2.8.0.rc2_2.8.0.RC2;0.7.4
+	no ivy file in cache for org.scala-tools.sbt#precompiled-2.8.0.rc2_2.8.0.RC2;0.7.4: tried /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/precompiled-2.8.0.rc2_2.8.0.RC2/ivy-0.7.4.xml
+	 trying file:///Users/lincoln/.m2/repository/org/scala-tools/sbt/precompiled-2.8.0.rc2_2.8.0.RC2/0.7.4/precompiled-2.8.0.rc2_2.8.0.RC2-0.7.4.pom
+		tried file:///Users/lincoln/.m2/repository/org/scala-tools/sbt/precompiled-2.8.0.rc2_2.8.0.RC2/0.7.4/precompiled-2.8.0.rc2_2.8.0.RC2-0.7.4.pom
+	Maven2 Local: resource not reachable for org/scala-tools/sbt#precompiled-2.8.0.rc2_2.8.0.RC2;0.7.4: res=file:/Users/lincoln/.m2/repository/org/scala-tools/sbt/precompiled-2.8.0.rc2_2.8.0.RC2/0.7.4/precompiled-2.8.0.rc2_2.8.0.RC2-0.7.4.pom
+	 trying file:///Users/lincoln/.m2/repository/org/scala-tools/sbt/precompiled-2.8.0.rc2_2.8.0.RC2/0.7.4/precompiled-2.8.0.rc2_2.8.0.RC2-0.7.4.jar
+		tried file:///Users/lincoln/.m2/repository/org/scala-tools/sbt/precompiled-2.8.0.rc2_2.8.0.RC2/0.7.4/precompiled-2.8.0.rc2_2.8.0.RC2-0.7.4.jar
+	Maven2 Local: resource not reachable for org/scala-tools/sbt#precompiled-2.8.0.rc2_2.8.0.RC2;0.7.4: res=file:/Users/lincoln/.m2/repository/org/scala-tools/sbt/precompiled-2.8.0.rc2_2.8.0.RC2/0.7.4/precompiled-2.8.0.rc2_2.8.0.RC2-0.7.4.jar
+	Maven2 Local: no ivy file nor artifact found for org.scala-tools.sbt#precompiled-2.8.0.rc2_2.8.0.RC2;0.7.4
+	no ivy file in cache for org.scala-tools.sbt#precompiled-2.8.0.rc2_2.8.0.RC2;0.7.4: tried /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/precompiled-2.8.0.rc2_2.8.0.RC2/ivy-0.7.4.xml
+	 trying http://databinder.net/repo/org.scala-tools.sbt/precompiled-2.8.0.rc2_2.8.0.RC2/0.7.4/ivys/ivy.xml
+		tried http://databinder.net/repo/org.scala-tools.sbt/precompiled-2.8.0.rc2_2.8.0.RC2/0.7.4/ivys/ivy.xml
+	sbt-db: found md file for org.scala-tools.sbt#precompiled-2.8.0.rc2_2.8.0.RC2;0.7.4
+		=> http://databinder.net/repo/org.scala-tools.sbt/precompiled-2.8.0.rc2_2.8.0.RC2/0.7.4/ivys/ivy.xml (0.7.4)
+	parser = ivy parser
+	no ivy file in cache for org.scala-tools.sbt#precompiled-2.8.0.rc2_2.8.0.RC2;0.7.4: tried /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/precompiled-2.8.0.rc2_2.8.0.RC2/ivy-0.7.4.xml
+downloading http://databinder.net/repo/org.scala-tools.sbt/precompiled-2.8.0.rc2_2.8.0.RC2/0.7.4/ivys/ivy.xml ...
+	sbt-db: downloading http://databinder.net/repo/org.scala-tools.sbt/precompiled-2.8.0.rc2_2.8.0.RC2/0.7.4/ivys/ivy.xml
+		to /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/precompiled-2.8.0.rc2_2.8.0.RC2/ivy-0.7.4.xml.original.part
+	[SUCCESSFUL ] org.scala-tools.sbt#precompiled-2.8.0.rc2_2.8.0.RC2;0.7.4!ivy.xml(ivy.original) (82ms)
+pre 1.3 ivy file: using exactOrRegexp as default matcher
+	default-cache: parsed downloaded md file for org.scala-tools.sbt#precompiled-2.8.0.rc2_2.8.0.RC2;0.7.4; parsed=org.scala-tools.sbt#precompiled-2.8.0.rc2_2.8.0.RC2;0.7.4
+	checking org.scala-tools.sbt#precompiled-2.8.0.rc2_2.8.0.RC2;0.7.4 from sbt-db against [none]
+	module revision kept as first found: org.scala-tools.sbt#precompiled-2.8.0.rc2_2.8.0.RC2;0.7.4 from sbt-db
+	found org.scala-tools.sbt#precompiled-2.8.0.rc2_2.8.0.RC2;0.7.4 in sbt-db
+== resolving dependencies org.scala-tools.sbt#precompiled-2.8.0.rc2_2.8.0.RC2;0.7.4->org.scala-tools.sbt#interface;0.7.4 [default->default(compile)]
+loadData of org.scala-tools.sbt#interface;0.7.4 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-tools.sbt#sbt_2.7.7;0.7.4->org.scala-tools.sbt#launcher-interface;0.7.4 [default->default(compile)]
+loadData of org.scala-tools.sbt#launcher-interface;0.7.4 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+Nbr of module to sort : 14
+Sort dependencies of : org.scala-tools.sbt#sbt_2.7.7;0.7.4 / Number of dependencies = 10
+Sort dependencies of : com.jcraft#jsch;0.1.31 / Number of dependencies = 1
+Sort done for : com.jcraft#jsch;0.1.31
+Sort dependencies of : org.scala-tools.testing#test-interface;0.5 / Number of dependencies = 0
+Sort done for : org.scala-tools.testing#test-interface;0.5
+Sort dependencies of : org.apache.ivy#ivy;2.1.0 / Number of dependencies = 13
+Module descriptor is processed : com.jcraft#jsch;0.1.31
+Sort done for : org.apache.ivy#ivy;2.1.0
+Sort dependencies of : org.scala-tools.sbt#compile_2.7.7;0.7.4 / Number of dependencies = 6
+Sort dependencies of : org.scala-tools.sbt#launcher-interface;0.7.4 / Number of dependencies = 0
+Sort done for : org.scala-tools.sbt#launcher-interface;0.7.4
+Sort dependencies of : org.scala-tools.sbt#interface;0.7.4 / Number of dependencies = 0
+Sort done for : org.scala-tools.sbt#interface;0.7.4
+Sort dependencies of : org.scala-tools.sbt#ivy_2.7.7;0.7.4 / Number of dependencies = 3
+Module descriptor is processed : org.apache.ivy#ivy;2.1.0
+Module descriptor is processed : org.scala-tools.sbt#interface;0.7.4
+Module descriptor is processed : org.scala-tools.sbt#launcher-interface;0.7.4
+Sort done for : org.scala-tools.sbt#ivy_2.7.7;0.7.4
+Sort dependencies of : org.scala-tools.sbt#io_2.7.7;0.7.4 / Number of dependencies = 1
+Sort dependencies of : org.scala-tools.sbt#control_2.7.7;0.7.4 / Number of dependencies = 0
+Sort done for : org.scala-tools.sbt#control_2.7.7;0.7.4
+Sort done for : org.scala-tools.sbt#io_2.7.7;0.7.4
+Sort dependencies of : org.scala-tools.sbt#classpath_2.7.7;0.7.4 / Number of dependencies = 0
+Sort done for : org.scala-tools.sbt#classpath_2.7.7;0.7.4
+Sort dependencies of : org.scala-tools.sbt#compiler-interface;0.7.4 / Number of dependencies = 3
+Sort dependencies of : jline#jline;0.9.94 / Number of dependencies = 1
+Sort done for : jline#jline;0.9.94
+Module descriptor is processed : org.scala-tools.sbt#interface;0.7.4
+Sort dependencies of : org.scala-tools.sbt#precompiled-2.8.0.rc2_2.8.0.RC2;0.7.4 / Number of dependencies = 1
+Module descriptor is processed : org.scala-tools.sbt#interface;0.7.4
+Sort done for : org.scala-tools.sbt#precompiled-2.8.0.rc2_2.8.0.RC2;0.7.4
+Sort done for : org.scala-tools.sbt#compiler-interface;0.7.4
+Sort done for : org.scala-tools.sbt#compile_2.7.7;0.7.4
+Module descriptor is processed : org.scala-tools.sbt#launcher-interface;0.7.4
+Sort done for : org.scala-tools.sbt#sbt_2.7.7;0.7.4
+Module descriptor is processed : com.jcraft#jsch;0.1.31
+Module descriptor is processed : org.scala-tools.testing#test-interface;0.5
+Module descriptor is processed : org.apache.ivy#ivy;2.1.0
+Module descriptor is processed : org.scala-tools.sbt#compile_2.7.7;0.7.4
+Module descriptor is processed : org.scala-tools.sbt#launcher-interface;0.7.4
+Module descriptor is processed : org.scala-tools.sbt#interface;0.7.4
+Module descriptor is processed : org.scala-tools.sbt#ivy_2.7.7;0.7.4
+Module descriptor is processed : org.scala-tools.sbt#io_2.7.7;0.7.4
+Module descriptor is processed : org.scala-tools.sbt#classpath_2.7.7;0.7.4
+Module descriptor is processed : org.scala-tools.sbt#compiler-interface;0.7.4
+Module descriptor is processed : org.scala-tools.sbt#control_2.7.7;0.7.4
+Module descriptor is processed : jline#jline;0.9.94
+Module descriptor is processed : org.scala-tools.sbt#precompiled-2.8.0.rc2_2.8.0.RC2;0.7.4
+	resolved ivy file produced in /Users/lincoln/.ivy2/cache/resolved-org.scala-tools.sbt-boot-app-1.0.xml
+:: downloading artifacts ::
+	 trying http://databinder.net/repo/org.scala-tools.sbt/sbt_2.7.7/0.7.4/jars/sbt_2.7.7.jar
+		tried http://databinder.net/repo/org.scala-tools.sbt/sbt_2.7.7/0.7.4/jars/sbt_2.7.7.jar
+downloading http://databinder.net/repo/org.scala-tools.sbt/sbt_2.7.7/0.7.4/jars/sbt_2.7.7.jar ...
+	sbt-db: downloading http://databinder.net/repo/org.scala-tools.sbt/sbt_2.7.7/0.7.4/jars/sbt_2.7.7.jar
+		to /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/sbt_2.7.7/jars/sbt_2.7.7-0.7.4.jar.part
+	[SUCCESSFUL ] org.scala-tools.sbt#sbt_2.7.7;0.7.4!sbt_2.7.7.jar (19717ms)
+	 trying http://repo1.maven.org/maven2/com/jcraft/jsch/0.1.31/jsch-0.1.31.jar
+		tried http://repo1.maven.org/maven2/com/jcraft/jsch/0.1.31/jsch-0.1.31.jar
+downloading http://repo1.maven.org/maven2/com/jcraft/jsch/0.1.31/jsch-0.1.31.jar ...
+	Maven Central: downloading http://repo1.maven.org/maven2/com/jcraft/jsch/0.1.31/jsch-0.1.31.jar
+		to /Users/lincoln/.ivy2/cache/com.jcraft/jsch/jars/jsch-0.1.31.jar.part
+	[SUCCESSFUL ] com.jcraft#jsch;0.1.31!jsch.jar (934ms)
+	 trying http://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5.jar
+		tried http://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5.jar
+downloading http://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5.jar ...
+	Maven Central: downloading http://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5.jar
+		to /Users/lincoln/.ivy2/cache/org.scala-tools.testing/test-interface/jars/test-interface-0.5.jar.part
+	[SUCCESSFUL ] org.scala-tools.testing#test-interface;0.5!test-interface.jar (79ms)
+	 trying http://repo1.maven.org/maven2/org/apache/ivy/ivy/2.1.0/ivy-2.1.0.jar
+		tried http://repo1.maven.org/maven2/org/apache/ivy/ivy/2.1.0/ivy-2.1.0.jar
+downloading http://repo1.maven.org/maven2/org/apache/ivy/ivy/2.1.0/ivy-2.1.0.jar ...
+	Maven Central: downloading http://repo1.maven.org/maven2/org/apache/ivy/ivy/2.1.0/ivy-2.1.0.jar
+		to /Users/lincoln/.ivy2/cache/org.apache.ivy/ivy/jars/ivy-2.1.0.jar.part
+	[SUCCESSFUL ] org.apache.ivy#ivy;2.1.0!ivy.jar (8456ms)
+	 trying http://databinder.net/repo/org.scala-tools.sbt/compile_2.7.7/0.7.4/jars/compile_2.7.7.jar
+		tried http://databinder.net/repo/org.scala-tools.sbt/compile_2.7.7/0.7.4/jars/compile_2.7.7.jar
+downloading http://databinder.net/repo/org.scala-tools.sbt/compile_2.7.7/0.7.4/jars/compile_2.7.7.jar ...
+	sbt-db: downloading http://databinder.net/repo/org.scala-tools.sbt/compile_2.7.7/0.7.4/jars/compile_2.7.7.jar
+		to /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/compile_2.7.7/jars/compile_2.7.7-0.7.4.jar.part
+	[SUCCESSFUL ] org.scala-tools.sbt#compile_2.7.7;0.7.4!compile_2.7.7.jar (1009ms)
+	 trying http://databinder.net/repo/org.scala-tools.sbt/launcher-interface/0.7.4/jars/launcher-interface.jar
+		tried http://databinder.net/repo/org.scala-tools.sbt/launcher-interface/0.7.4/jars/launcher-interface.jar
+downloading http://databinder.net/repo/org.scala-tools.sbt/launcher-interface/0.7.4/jars/launcher-interface.jar ...
+	sbt-db: downloading http://databinder.net/repo/org.scala-tools.sbt/launcher-interface/0.7.4/jars/launcher-interface.jar
+		to /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/launcher-interface/jars/launcher-interface-0.7.4.jar.part
+	[SUCCESSFUL ] org.scala-tools.sbt#launcher-interface;0.7.4!launcher-interface.jar (179ms)
+	 trying http://databinder.net/repo/org.scala-tools.sbt/interface/0.7.4/jars/interface.jar
+		tried http://databinder.net/repo/org.scala-tools.sbt/interface/0.7.4/jars/interface.jar
+downloading http://databinder.net/repo/org.scala-tools.sbt/interface/0.7.4/jars/interface.jar ...
+	sbt-db: downloading http://databinder.net/repo/org.scala-tools.sbt/interface/0.7.4/jars/interface.jar
+		to /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/interface/jars/interface-0.7.4.jar.part
+	[SUCCESSFUL ] org.scala-tools.sbt#interface;0.7.4!interface.jar (512ms)
+	 trying http://databinder.net/repo/org.scala-tools.sbt/ivy_2.7.7/0.7.4/jars/ivy_2.7.7.jar
+		tried http://databinder.net/repo/org.scala-tools.sbt/ivy_2.7.7/0.7.4/jars/ivy_2.7.7.jar
+downloading http://databinder.net/repo/org.scala-tools.sbt/ivy_2.7.7/0.7.4/jars/ivy_2.7.7.jar ...
+	sbt-db: downloading http://databinder.net/repo/org.scala-tools.sbt/ivy_2.7.7/0.7.4/jars/ivy_2.7.7.jar
+		to /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/ivy_2.7.7/jars/ivy_2.7.7-0.7.4.jar.part
+	[SUCCESSFUL ] org.scala-tools.sbt#ivy_2.7.7;0.7.4!ivy_2.7.7.jar (2235ms)
+	 trying http://databinder.net/repo/org.scala-tools.sbt/io_2.7.7/0.7.4/jars/io_2.7.7.jar
+		tried http://databinder.net/repo/org.scala-tools.sbt/io_2.7.7/0.7.4/jars/io_2.7.7.jar
+downloading http://databinder.net/repo/org.scala-tools.sbt/io_2.7.7/0.7.4/jars/io_2.7.7.jar ...
+	sbt-db: downloading http://databinder.net/repo/org.scala-tools.sbt/io_2.7.7/0.7.4/jars/io_2.7.7.jar
+		to /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/io_2.7.7/jars/io_2.7.7-0.7.4.jar.part
+	[SUCCESSFUL ] org.scala-tools.sbt#io_2.7.7;0.7.4!io_2.7.7.jar (1369ms)
+	 trying http://databinder.net/repo/org.scala-tools.sbt/classpath_2.7.7/0.7.4/jars/classpath_2.7.7.jar
+		tried http://databinder.net/repo/org.scala-tools.sbt/classpath_2.7.7/0.7.4/jars/classpath_2.7.7.jar
+downloading http://databinder.net/repo/org.scala-tools.sbt/classpath_2.7.7/0.7.4/jars/classpath_2.7.7.jar ...
+	sbt-db: downloading http://databinder.net/repo/org.scala-tools.sbt/classpath_2.7.7/0.7.4/jars/classpath_2.7.7.jar
+		to /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/classpath_2.7.7/jars/classpath_2.7.7-0.7.4.jar.part
+	[SUCCESSFUL ] org.scala-tools.sbt#classpath_2.7.7;0.7.4!classpath_2.7.7.jar (131ms)
+	 trying http://databinder.net/repo/org.scala-tools.sbt/compiler-interface/0.7.4/jars/compiler-interface-bin.jar
+		tried http://databinder.net/repo/org.scala-tools.sbt/compiler-interface/0.7.4/jars/compiler-interface-bin.jar
+downloading http://databinder.net/repo/org.scala-tools.sbt/compiler-interface/0.7.4/jars/compiler-interface-bin.jar ...
+	sbt-db: downloading http://databinder.net/repo/org.scala-tools.sbt/compiler-interface/0.7.4/jars/compiler-interface-bin.jar
+		to /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/compiler-interface/jars/compiler-interface-bin-0.7.4.jar.part
+	[SUCCESSFUL ] org.scala-tools.sbt#compiler-interface;0.7.4!compiler-interface-bin.jar (1241ms)
+	 trying http://databinder.net/repo/org.scala-tools.sbt/compiler-interface/0.7.4/jars/compiler-interface-src.jar
+		tried http://databinder.net/repo/org.scala-tools.sbt/compiler-interface/0.7.4/jars/compiler-interface-src.jar
+downloading http://databinder.net/repo/org.scala-tools.sbt/compiler-interface/0.7.4/jars/compiler-interface-src.jar ...
+	sbt-db: downloading http://databinder.net/repo/org.scala-tools.sbt/compiler-interface/0.7.4/jars/compiler-interface-src.jar
+		to /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/compiler-interface/jars/compiler-interface-src-0.7.4.jar.part
+	[SUCCESSFUL ] org.scala-tools.sbt#compiler-interface;0.7.4!compiler-interface-src.jar (284ms)
+	 trying http://databinder.net/repo/org.scala-tools.sbt/control_2.7.7/0.7.4/jars/control_2.7.7.jar
+		tried http://databinder.net/repo/org.scala-tools.sbt/control_2.7.7/0.7.4/jars/control_2.7.7.jar
+downloading http://databinder.net/repo/org.scala-tools.sbt/control_2.7.7/0.7.4/jars/control_2.7.7.jar ...
+	sbt-db: downloading http://databinder.net/repo/org.scala-tools.sbt/control_2.7.7/0.7.4/jars/control_2.7.7.jar
+		to /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/control_2.7.7/jars/control_2.7.7-0.7.4.jar.part
+	[SUCCESSFUL ] org.scala-tools.sbt#control_2.7.7;0.7.4!control_2.7.7.jar (207ms)
+	 trying http://repo1.maven.org/maven2/jline/jline/0.9.94/jline-0.9.94.jar
+		tried http://repo1.maven.org/maven2/jline/jline/0.9.94/jline-0.9.94.jar
+downloading http://repo1.maven.org/maven2/jline/jline/0.9.94/jline-0.9.94.jar ...
+	Maven Central: downloading http://repo1.maven.org/maven2/jline/jline/0.9.94/jline-0.9.94.jar
+		to /Users/lincoln/.ivy2/cache/jline/jline/jars/jline-0.9.94.jar.part
+	[SUCCESSFUL ] jline#jline;0.9.94!jline.jar (2227ms)
+	 trying http://databinder.net/repo/org.scala-tools.sbt/precompiled-2.8.0.rc2_2.8.0.RC2/0.7.4/jars/compiler-interface-bin.jar
+		tried http://databinder.net/repo/org.scala-tools.sbt/precompiled-2.8.0.rc2_2.8.0.RC2/0.7.4/jars/compiler-interface-bin.jar
+downloading http://databinder.net/repo/org.scala-tools.sbt/precompiled-2.8.0.rc2_2.8.0.RC2/0.7.4/jars/compiler-interface-bin.jar ...
+	sbt-db: downloading http://databinder.net/repo/org.scala-tools.sbt/precompiled-2.8.0.rc2_2.8.0.RC2/0.7.4/jars/compiler-interface-bin.jar
+		to /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/precompiled-2.8.0.rc2_2.8.0.RC2/jars/compiler-interface-bin-0.7.4.jar.part
+	[SUCCESSFUL ] org.scala-tools.sbt#precompiled-2.8.0.rc2_2.8.0.RC2;0.7.4!compiler-interface-bin.jar (2238ms)
+:: resolution report :: resolve 12150ms :: artifacts dl 40834ms
+Nbr of module to sort : 14
+Sort dependencies of : org.scala-tools.sbt#sbt_2.7.7;0.7.4 / Number of dependencies = 10
+Sort dependencies of : com.jcraft#jsch;0.1.31 / Number of dependencies = 1
+Sort done for : com.jcraft#jsch;0.1.31
+Sort dependencies of : org.scala-tools.testing#test-interface;0.5 / Number of dependencies = 0
+Sort done for : org.scala-tools.testing#test-interface;0.5
+Sort dependencies of : org.apache.ivy#ivy;2.1.0 / Number of dependencies = 13
+Module descriptor is processed : com.jcraft#jsch;0.1.31
+Sort done for : org.apache.ivy#ivy;2.1.0
+Sort dependencies of : org.scala-tools.sbt#compile_2.7.7;0.7.4 / Number of dependencies = 6
+Sort dependencies of : org.scala-tools.sbt#launcher-interface;0.7.4 / Number of dependencies = 0
+Sort done for : org.scala-tools.sbt#launcher-interface;0.7.4
+Sort dependencies of : org.scala-tools.sbt#interface;0.7.4 / Number of dependencies = 0
+Sort done for : org.scala-tools.sbt#interface;0.7.4
+Sort dependencies of : org.scala-tools.sbt#ivy_2.7.7;0.7.4 / Number of dependencies = 3
+Module descriptor is processed : org.apache.ivy#ivy;2.1.0
+Module descriptor is processed : org.scala-tools.sbt#interface;0.7.4
+Module descriptor is processed : org.scala-tools.sbt#launcher-interface;0.7.4
+Sort done for : org.scala-tools.sbt#ivy_2.7.7;0.7.4
+Sort dependencies of : org.scala-tools.sbt#io_2.7.7;0.7.4 / Number of dependencies = 1
+Sort dependencies of : org.scala-tools.sbt#control_2.7.7;0.7.4 / Number of dependencies = 0
+Sort done for : org.scala-tools.sbt#control_2.7.7;0.7.4
+Sort done for : org.scala-tools.sbt#io_2.7.7;0.7.4
+Sort dependencies of : org.scala-tools.sbt#classpath_2.7.7;0.7.4 / Number of dependencies = 0
+Sort done for : org.scala-tools.sbt#classpath_2.7.7;0.7.4
+Sort dependencies of : org.scala-tools.sbt#compiler-interface;0.7.4 / Number of dependencies = 3
+Sort dependencies of : jline#jline;0.9.94 / Number of dependencies = 1
+Sort done for : jline#jline;0.9.94
+Module descriptor is processed : org.scala-tools.sbt#interface;0.7.4
+Sort dependencies of : org.scala-tools.sbt#precompiled-2.8.0.rc2_2.8.0.RC2;0.7.4 / Number of dependencies = 1
+Module descriptor is processed : org.scala-tools.sbt#interface;0.7.4
+Sort done for : org.scala-tools.sbt#precompiled-2.8.0.rc2_2.8.0.RC2;0.7.4
+Sort done for : org.scala-tools.sbt#compiler-interface;0.7.4
+Sort done for : org.scala-tools.sbt#compile_2.7.7;0.7.4
+Module descriptor is processed : org.scala-tools.sbt#launcher-interface;0.7.4
+Sort done for : org.scala-tools.sbt#sbt_2.7.7;0.7.4
+Module descriptor is processed : com.jcraft#jsch;0.1.31
+Module descriptor is processed : org.scala-tools.testing#test-interface;0.5
+Module descriptor is processed : org.apache.ivy#ivy;2.1.0
+Module descriptor is processed : org.scala-tools.sbt#compile_2.7.7;0.7.4
+Module descriptor is processed : org.scala-tools.sbt#launcher-interface;0.7.4
+Module descriptor is processed : org.scala-tools.sbt#interface;0.7.4
+Module descriptor is processed : org.scala-tools.sbt#ivy_2.7.7;0.7.4
+Module descriptor is processed : org.scala-tools.sbt#io_2.7.7;0.7.4
+Module descriptor is processed : org.scala-tools.sbt#control_2.7.7;0.7.4
+Module descriptor is processed : org.scala-tools.sbt#classpath_2.7.7;0.7.4
+Module descriptor is processed : org.scala-tools.sbt#compiler-interface;0.7.4
+Module descriptor is processed : jline#jline;0.9.94
+Module descriptor is processed : org.scala-tools.sbt#precompiled-2.8.0.rc2_2.8.0.RC2;0.7.4
+	report for org.scala-tools.sbt#boot-app;1.0 default produced in /Users/lincoln/.ivy2/cache/org.scala-tools.sbt-boot-app-default.xml
+	resolve done (12150ms resolve - 40834ms download)
+:: retrieving :: org.scala-tools.sbt#boot-app
+	checkUpToDate=true
+no explicit confs given for retrieve, using ivy file: /Users/lincoln/.ivy2/cache/resolved-org.scala-tools.sbt-boot-app-1.0.xml
+using ivy parser to parse /Users/lincoln/.ivy2/cache/resolved-org.scala-tools.sbt-boot-app-1.0.xml
+pre 1.3 ivy file: using exactOrRegexp as default matcher
+	confs: [default]
+	retrieving /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/launcher-interface/jars/launcher-interface-0.7.4.jar
+		to /Users/lincoln/hp/sandm/project/boot/scala-2.7.7/org.scala-tools.sbt/sbt/0.7.4/launcher-interface-0.7.4.jar
+	retrieving /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/compile_2.7.7/jars/compile_2.7.7-0.7.4.jar
+		to /Users/lincoln/hp/sandm/project/boot/scala-2.7.7/org.scala-tools.sbt/sbt/0.7.4/compile_2.7.7-0.7.4.jar
+	retrieving /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/precompiled-2.8.0.rc2_2.8.0.RC2/jars/compiler-interface-bin-0.7.4.jar
+		to /Users/lincoln/hp/sandm/project/boot/scala-2.7.7/org.scala-tools.sbt/sbt/0.7.4/compiler-interface-bin_2.8.0.RC2/compiler-interface-bin-0.7.4.jar
+	retrieving /Users/lincoln/.ivy2/cache/org.scala-tools.testing/test-interface/jars/test-interface-0.5.jar
+		to /Users/lincoln/hp/sandm/project/boot/scala-2.7.7/org.scala-tools.sbt/sbt/0.7.4/test-interface-0.5.jar
+	retrieving /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/compiler-interface/jars/compiler-interface-src-0.7.4.jar
+		to /Users/lincoln/hp/sandm/project/boot/scala-2.7.7/org.scala-tools.sbt/sbt/0.7.4/compiler-interface-src/compiler-interface-src-0.7.4.jar
+	retrieving /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/classpath_2.7.7/jars/classpath_2.7.7-0.7.4.jar
+		to /Users/lincoln/hp/sandm/project/boot/scala-2.7.7/org.scala-tools.sbt/sbt/0.7.4/classpath_2.7.7-0.7.4.jar
+	retrieving /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/compiler-interface/jars/compiler-interface-bin-0.7.4.jar
+		to /Users/lincoln/hp/sandm/project/boot/scala-2.7.7/org.scala-tools.sbt/sbt/0.7.4/compiler-interface-bin_2.7.7.final/compiler-interface-bin-0.7.4.jar
+	retrieving /Users/lincoln/.ivy2/cache/jline/jline/jars/jline-0.9.94.jar
+		to /Users/lincoln/hp/sandm/project/boot/scala-2.7.7/org.scala-tools.sbt/sbt/0.7.4/compiler-interface-src/jline-0.9.94.jar
+	retrieving /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/control_2.7.7/jars/control_2.7.7-0.7.4.jar
+		to /Users/lincoln/hp/sandm/project/boot/scala-2.7.7/org.scala-tools.sbt/sbt/0.7.4/control_2.7.7-0.7.4.jar
+	retrieving /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/io_2.7.7/jars/io_2.7.7-0.7.4.jar
+		to /Users/lincoln/hp/sandm/project/boot/scala-2.7.7/org.scala-tools.sbt/sbt/0.7.4/io_2.7.7-0.7.4.jar
+	retrieving /Users/lincoln/.ivy2/cache/org.apache.ivy/ivy/jars/ivy-2.1.0.jar
+		to /Users/lincoln/hp/sandm/project/boot/scala-2.7.7/org.scala-tools.sbt/sbt/0.7.4/ivy-2.1.0.jar
+	retrieving /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/sbt_2.7.7/jars/sbt_2.7.7-0.7.4.jar
+		to /Users/lincoln/hp/sandm/project/boot/scala-2.7.7/org.scala-tools.sbt/sbt/0.7.4/sbt_2.7.7-0.7.4.jar
+	retrieving /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/interface/jars/interface-0.7.4.jar
+		to /Users/lincoln/hp/sandm/project/boot/scala-2.7.7/org.scala-tools.sbt/sbt/0.7.4/xsbti/interface-0.7.4.jar
+	retrieving /Users/lincoln/.ivy2/cache/com.jcraft/jsch/jars/jsch-0.1.31.jar
+		to /Users/lincoln/hp/sandm/project/boot/scala-2.7.7/org.scala-tools.sbt/sbt/0.7.4/jsch-0.1.31.jar
+	retrieving /Users/lincoln/.ivy2/cache/org.scala-tools.sbt/ivy_2.7.7/jars/ivy_2.7.7-0.7.4.jar
+		to /Users/lincoln/hp/sandm/project/boot/scala-2.7.7/org.scala-tools.sbt/sbt/0.7.4/ivy_2.7.7-0.7.4.jar
+	15 artifacts copied, 0 already retrieved (4096kB/38ms)
+	retrieve done (38ms)

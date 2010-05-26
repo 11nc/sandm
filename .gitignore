@@ -1,6 +1,6 @@
 .DS_Store
 target
-project/build/target/
+project/build/target
 .dbshell
 mkmf.log
 nohup.out
