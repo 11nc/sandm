@@ -102,7 +102,7 @@ object MongoDSL {
 		case _ => MNothing
 	}
 	
-	// TODO: un-uglify this
+	// TODO: un-uglify this - there must be a better way
 	implicit def list2mval[T](l: List[T])(implicit m: Manifest[T]): MVal = m.erasure match {
 		case e if e.isAssignableFrom(classOf[Int]) => MArray( l.map(x => int2mval(x.asInstanceOf[Int])) )
 		case e if e.isAssignableFrom(classOf[Long]) => MArray( l.map(x => long2mval(x.asInstanceOf[Long])) )
@@ -111,12 +111,9 @@ object MongoDSL {
 		case e if e.isAssignableFrom(classOf[String]) => MArray( l.map(x => string2mval(x.asInstanceOf[String])) )
 		case e if e.isAssignableFrom(classOf[Regex]) => MArray( l.map(x => regex2mval(x.asInstanceOf[Regex])) )
 		case e if e.isAssignableFrom(classOf[java.util.regex.Pattern]) => MArray( l.map(x => pattern2mval(x.asInstanceOf[java.util.regex.Pattern])) )
-    // case e if e.isAssignableFrom(classOf[MVal]) => MArray( l.map(x => x.as[MVal]) ) // not sure why needed
-    // case e if e.isAssignableFrom(classOf[UserId]) => MArray( l.map(x => MId(x.as[UserId].id)) )
-    // case e if e.isAssignableFrom(classOf[EventId]) => MArray( l.map(x => MId(x.as[EventId].id)) )
-    // case e if e.isAssignableFrom(classOf[MsgId]) => MArray( l.map(x => MId(x.as[MsgId].id)) )
-    // case e if e.isAssignableFrom(classOf[ObjectId]) => MArray( l.map(x => MId(x.as[ObjectId])) ) // not sure why needed
-    // case e if e.isAssignableFrom(classOf[MObject]) => MArray( l.map(x => x.as[MVal]) ) // not sure why needed
+    case e if e.isAssignableFrom(classOf[MVal]) => MArray( l.map(x => x.asInstanceOf[MVal]) )
+    case e if e.isAssignableFrom(classOf[ObjectId]) => MArray( l.map(x => MId(x.asInstanceOf[ObjectId])) )
+    case e if e.isAssignableFrom(classOf[MObject]) => MArray( l.map(x => x.asInstanceOf[MVal]) )
 		// case e if e.getInterfaces.exists(c => c == classOf[DBObject]) => MArray( l.map(x => MDbo(x.as[DBObject])) )
 		case other => try {
 			MArray( l.map(x => MDbo(x.asInstanceOf[DBObject])) )
