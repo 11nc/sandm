@@ -1,4 +1,4 @@
-package com.hotpotato.util
+package sandm.util
 
 import _root_.scala.collection._
 

@@ -1,4 +1,4 @@
-package com.hotpotato.sandm
+package sandm
 
 import _root_.scala.collection.jcl
 
@@ -7,8 +7,8 @@ import _root_.com.mongodb
 import mongodb.{BasicDBObject => DBO, MapReduceOutput => MongoMapReduceOutput}
 import _root_.com.mongodb.util.JSON
 
-import _root_.com.hotpotato.util.Timer
-import _root_.com.hotpotato.util.Utils._
+import util.Timer
+import util.Utils._
 
 import MongoAST._
 import MongoDSL._

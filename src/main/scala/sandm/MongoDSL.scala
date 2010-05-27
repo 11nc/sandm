@@ -1,4 +1,4 @@
-package com.hotpotato.sandm
+package sandm
 
 import _root_.com.mongodb._
 import _root_.com.mongodb.{BasicDBObject => DBO}
