@@ -58,7 +58,7 @@ object MongoAST {
 	case class MField(name: MKey, value: MVal) extends MVal
 	case class MObject(obj: List[MField]) extends MVal 
   // {
-  //  def \(key: MKey) = MObject(obj.filter(f => f.name == key))
+  //  def /(key: MKey) = MObject(obj.filter(f => f.name == key))
   // }
 	case class MArray(arr: List[MVal]) extends MVal
 	
