@@ -155,6 +155,11 @@ abstract class Collection(val coll: DBCollection) {
 		res
 	}
 
+	def findOne(idOpt: Option[MVal])(implicit logPrefix: String): Option[DBObject] = idOpt match {
+		case Some(id) => findOne(id)
+		case _ => None
+	}
+
 	def findOne(id: MVal, fields: List[MKey])(implicit logPrefix: String): Option[DBObject] = {
 		val t = Timer()
 		val q = id.render
@@ -169,6 +174,11 @@ abstract class Collection(val coll: DBCollection) {
 		res
 	}
 
+	def findOne(idOpt: Option[MVal], fields: List[MKey])(implicit logPrefix: String): Option[DBObject] = idOpt match {
+		case Some(id) => findOne(id, fields)
+		case _ => None
+	}
+	
 	def findOne(query: MObject)(implicit logPrefix: String): Option[DBObject] = {
 		val t = Timer()
 		val q = preProcessQuery(query.render.asInstanceOf[DBObject])
