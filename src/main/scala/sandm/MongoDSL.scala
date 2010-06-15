@@ -148,7 +148,6 @@ object MongoDSL {
 	implicit def dbowrapper2dbo(dbow: DBOWrapper) = dbow.dbo
 
 	case class DBOWrapper(dbo: DBObject) {
-
 		def /(key: MKey): Option[AnyRef] = /(key.value)
     def /(key: String): Option[AnyRef] = if (dbo.containsField(key) && dbo.get(key) != null) Some(dbo.get(key)) else None
 
@@ -174,7 +173,6 @@ object MongoDSL {
 	implicit def dbooptionwrapper2dbo(dbow: DBOOptionWrapper): DBObject = dbow.dbo.getOrElse(new DBOWrapper(new DBO)).dbo
 	
 	case class DBOOptionWrapper(dbo: Option[DBOWrapper]) {
-	  
 		def /(key: MKey): Option[AnyRef] = if (dbo.isDefined) dbo.get / (key) else None
     def /(key: String): Option[AnyRef] = if (dbo.isDefined) dbo.get / (key) else None
 
@@ -191,16 +189,19 @@ object MongoDSL {
 	
 	implicit def anyref2mongonumwrapper(a: Any) = new MongoNumWrapper(a)
 	class MongoNumWrapper(a: Any) {
-		private val num = a.toString.toDouble
-		def jNum2Int = num.toInt
-		def jNum2Long = num.toLong
-		def jNum2Double = num.toDouble
-		def jNum2Float = num.toFloat
+		lazy val jNum2Int = a.toString.toInt
+		lazy val jNum2JInt = a.asInstanceOf[java.lang.Integer]
+		lazy val jNum2Long = a.toString.toLong
+		lazy val jNum2JLong = a.asInstanceOf[java.lang.Long]
+		lazy val jNum2Double = a.toString.toDouble
+		lazy val jNum2JDouble = a.asInstanceOf[java.lang.Double]
+		lazy val jNum2Float = a.toString.toFloat
+		lazy val jNum2JFloat = a.asInstanceOf[java.lang.Float]
 	}
 	
 	implicit def anyopt2oidwrapper(opt: Option[Any]) = new OIDOptionWrapper(opt)
 	class OIDOptionWrapper(opt: Option[Any]) {
-		val toOID = opt match {
+		lazy val toOID = opt match {
 			case Some(a) => new OIDWrapper(a).toOID
 			case _ => throw new RuntimeException()
 		}
@@ -208,12 +209,11 @@ object MongoDSL {
 		
 	implicit def anyref2oidwrapper(a: Any) = new OIDWrapper(a)
 	class OIDWrapper(a: Any) {
-		val toOID = ObjectId.massageToObjectId(a)
+		lazy val toOID = ObjectId.massageToObjectId(a)
 	}
 
 	implicit def any2dboconverter(a: Any) = new DBOConverter(a)
 	class DBOConverter(a: Any) {
-		val toDBO = try { a.asInstanceOf[DBObject] }
-		 						catch { case t: Throwable => new DBO }
+		lazy val toDBO = try { a.asInstanceOf[DBObject] } catch { case t: Throwable => new DBO }
 	}
 }
