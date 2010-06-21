@@ -134,8 +134,8 @@ object MongoDSL {
 	class MObjectWrapper(left: MObject) {
 		def ~(right: MObject): MObject = {
 			val rightNames: List[MKey] = right.obj.map(f => f.name)
-			val newLeft: List[MField] = left.obj.filter(f => !rightNames.contains(f.name))
-			MObject(newLeft ::: right.obj)
+			val newLeft: List[MField] = left.obj.filter(f => !rightNames.contains(f.name)).filter(f => !f.isEmpty)
+			MObject(newLeft ::: right.obj.filter(f => !f.isEmpty))
 		}
 	}
 	implicit def mo2mow(o: MObject) = new MObjectWrapper(o)
