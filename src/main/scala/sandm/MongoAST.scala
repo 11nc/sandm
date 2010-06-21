@@ -9,6 +9,7 @@ import _root_.scala.util.matching._
 
 object MongoAST {
 	sealed abstract class MVal {
+	  def isEmpty: Boolean
 		def render: Any = this match {
 			case MNothing => new DBO
 			case MId(oid) => oid
@@ -21,7 +22,7 @@ object MongoAST {
 			case MDecimal(d) => d
 			case MRegex(r) => r.pattern
 			case MPattern(p) => p
-			case MField(n, v) => if (v != MNothing) new DBO(n.value, v.render) else new DBO
+			case f @ MField(n, v) => if (!f.isEmpty) new DBO(n.value, v.render) else new DBO
 			case MObject(obj) => obj.foldLeft(new DBO) { (dbo, f: MField) => 
 				dbo.putAll(f.render.asInstanceOf[DBObject])
 				dbo 
@@ -34,7 +35,9 @@ object MongoAST {
 		}
 	}
 
-	case object MNothing extends MVal
+	case object MNothing extends MVal {
+	  val isEmpty = true
+	}
 
 	object MId {
 		def apply(oid: ObjectId) = new MId(oid)
@@ -44,27 +47,36 @@ object MongoAST {
 	
 	class MId(val oid: ObjectId) extends MVal {
 		def this(s: String) = this(ObjectId.massageToObjectId(s))
+		val isEmpty = false
 	}
 	
-	case class MString(s: String) extends MVal
-	case class MInt(i: Int) extends MVal
-	case class MJInt(i: java.lang.Integer) extends MVal
-	case class MNum(l: Long) extends MVal
-	case class MJNum(l: java.lang.Long) extends MVal
-	case class MDecimal(d: Double) extends MVal
-	case class MBool(b: Boolean) extends MVal
-	case class MRegex(r: Regex) extends MVal
-	case class MPattern(p: java.util.regex.Pattern) extends MVal
-	case class MField(name: MKey, value: MVal) extends MVal
-	case class MObject(obj: List[MField]) extends MVal 
-  // {
-  //  def /(key: MKey) = MObject(obj.filter(f => f.name == key))
-  // }
-	case class MArray(arr: List[MVal]) extends MVal
+	case class MString(s: String) extends MVal {
+	  val isEmpty = false
+	}
+	case class MInt(i: Int) extends MVal { val isEmpty = false }
+	case class MJInt(i: java.lang.Integer) extends MVal { val isEmpty = false }
+	case class MNum(l: Long) extends MVal { val isEmpty = false }
+	case class MJNum(l: java.lang.Long) extends MVal { val isEmpty = false }
+	case class MDecimal(d: Double) extends MVal { val isEmpty = false }
+	case class MBool(b: Boolean) extends MVal { val isEmpty = false }
+	case class MRegex(r: Regex) extends MVal { val isEmpty = false }
+	case class MPattern(p: java.util.regex.Pattern) extends MVal { val isEmpty = false }
+	case class MField(name: MKey, value: MVal) extends MVal { 
+	  val isEmpty = name.isEmpty || value.isEmpty
+	}
+	case class MObject(obj: List[MField]) extends MVal {
+	  val isEmpty = obj.forall(_.isEmpty)
+	}
+	case class MArray(arr: List[MVal]) extends MVal {
+	  val isEmpty = arr.forall(_.isEmpty)
+	}
 	
-	case class MDbo(dbo: DBObject) extends MVal
+	case class MDbo(dbo: DBObject) extends MVal {
+	  val isEmpty = dbo.toMap.isEmpty
+	}
 	
 	case class MKey(value: String) {
 		def +(other: MKey): MKey = MKey(value + "." + other.value)
+		val isEmpty = value == null
 	}
 }
