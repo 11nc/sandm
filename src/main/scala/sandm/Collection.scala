@@ -37,6 +37,7 @@ abstract class Collection(val coll: DBCollection) {
   val $exists = MKey("$exists") 
 	val $elemMatch = MKey("$elemMatch")
 	val $near = MKey("$near")
+	val $not = MKey("$not")
 	
 	// update_keys 
 	val $set = MKey("$set")
