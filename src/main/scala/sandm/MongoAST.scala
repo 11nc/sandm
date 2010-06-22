@@ -22,7 +22,7 @@ object MongoAST {
 			case MDecimal(d) => d
 			case MRegex(r) => r.pattern
 			case MPattern(p) => p
-			// careful, this change, while correct, caused a whole bunch of changes in behavior such as friend requests would return everyone if you had no friend requests
+			// careful, this change, while correct, caused a whole bunch of changes in behavior because what used to yield an empty doc, might now result in absense of a field
       case f @ MField(n, v) => if (!f.isEmpty) new DBO(n.value, v.render) else new DBO
       // case f @ MField(n, v) => if (v != MNothing) new DBO(n.value, v.render) else new DBO
 			case MObject(obj) => obj.filter(f => !f.isEmpty).foldLeft(new DBO) { (dbo, f) => 
@@ -68,15 +68,16 @@ object MongoAST {
 	}
 	
 	case class MObject(obj: List[MField]) extends MVal {
-	  val isEmpty = false //obj.forall(_.isEmpty)
+	  val isEmpty = obj.forall(_.isEmpty)
 	}
 
 	case class MArray(arr: List[MVal]) extends MVal {
+	  // for now treat empty lists as non-empty - this would just break too much shit
 	  val isEmpty = false //arr.forall(_.isEmpty)
 	}
 	
 	case class MDbo(dbo: DBObject) extends MVal {
-	  val isEmpty = false //dbo.toMap.isEmpty
+	  val isEmpty = dbo.toMap.isEmpty
 	}
 	
 	case class MKey(value: String) {
