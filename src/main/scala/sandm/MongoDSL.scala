@@ -3,6 +3,8 @@ package sandm
 import _root_.com.mongodb._
 import _root_.com.mongodb.{BasicDBObject => DBO}
 
+import _root_.java.util.regex.Pattern
+
 import _root_.scala.collection.jcl
 import _root_.scala.reflect.Manifest
 import _root_.scala.util.matching._
@@ -97,30 +99,80 @@ object MongoDSL {
 		case _ => MNothing
 	}
 	
-	implicit def optlist2mval[T](l: Option[List[T]])(implicit m: Manifest[T]): MVal = l match {
-		case Some(list) => list2mval[T](list)(m)
+	implicit def listint2mval(l: List[Int]): MVal = MArray( l.map(int2mval) )
+	implicit def optlistint2mval(l: Option[List[Int]]): MVal = l match {
+		case Some(list) => listint2mval(list)
+		case _ => MNothing
+	}
+	implicit def listlong2mval(l: List[Long]): MVal = MArray( l.map(long2mval) )
+	implicit def optlistlong2mval(l: Option[List[Long]]): MVal = l match {
+		case Some(list) => listlong2mval(list)
+		case _ => MNothing
+	}
+	implicit def listdoub2mval(l: List[Double]): MVal = MArray( l.map(double2mval) )
+	implicit def optlistdoub2mval(l: Option[List[Double]]): MVal = l match {
+		case Some(list) => listdoub2mval(list)
+		case _ => MNothing
+	}
+	implicit def listfl2mval(l: List[Float]): MVal = MArray( l.map(float2mval) )
+	implicit def optlistfl2mval(l: Option[List[Float]]): MVal = l match {
+		case Some(list) => listfl2mval(list)
+		case _ => MNothing
+	}
+	implicit def liststr2mval(l: List[String]): MVal = MArray( l.map(string2mval) )
+	implicit def optliststr2mval(l: Option[List[String]]): MVal = l match {
+		case Some(list) => liststr2mval(list)
+		case _ => MNothing
+	}
+	implicit def listregex2mval(l: List[Regex]): MVal = MArray( l.map(regex2mval) )
+	implicit def optlistregex2mval(l: Option[List[Regex]]): MVal = l match {
+		case Some(list) => listregex2mval(list)
+		case _ => MNothing
+	}
+	implicit def listpat2mval(l: List[Pattern]): MVal = MArray( l.map(pattern2mval) )
+	implicit def optlistpat2mval(l: Option[List[Pattern]]): MVal = l match {
+		case Some(list) => listpat2mval(list)
+		case _ => MNothing
+	}
+	implicit def listoid2mval(l: List[ObjectId]): MVal = MArray( l.map(x => MId(x)) )
+	implicit def optlistoid2mval(l: Option[List[ObjectId]]): MVal = l match {
+		case Some(list) => listoid2mval(list)
+		case _ => MNothing
+	}
+	implicit def listmval2mval(l: List[MVal]): MVal = MArray( l )
+	implicit def optlistmval2mval(l: Option[List[MVal]]): MVal = l match {
+		case Some(list) => listmval2mval(list)
+		case _ => MNothing
+	}
+	implicit def listdbo2mval(l: List[DBObject]): MVal = MArray( l.map(x => MDbo(x)) )
+	implicit def optlistdbo2mval(l: Option[List[DBObject]]): MVal = l match {
+		case Some(list) => listdbo2mval(list)
 		case _ => MNothing
 	}
 	
-	// TODO: un-uglify this - there must be a better way
-	implicit def list2mval[T](l: List[T])(implicit m: Manifest[T]): MVal = m.erasure match {
-		case e if e.isAssignableFrom(classOf[Int]) => MArray( l.map(x => int2mval(x.asInstanceOf[Int])) )
-		case e if e.isAssignableFrom(classOf[Long]) => MArray( l.map(x => long2mval(x.asInstanceOf[Long])) )
-		case e if e.isAssignableFrom(classOf[Double]) => MArray( l.map(x => double2mval(x.asInstanceOf[Double])) )
-		case e if e.isAssignableFrom(classOf[Float]) => MArray( l.map(x => float2mval(x.asInstanceOf[Float])) )
-		case e if e.isAssignableFrom(classOf[String]) => MArray( l.map(x => string2mval(x.asInstanceOf[String])) )
-		case e if e.isAssignableFrom(classOf[Regex]) => MArray( l.map(x => regex2mval(x.asInstanceOf[Regex])) )
-		case e if e.isAssignableFrom(classOf[java.util.regex.Pattern]) => MArray( l.map(x => pattern2mval(x.asInstanceOf[java.util.regex.Pattern])) )
-    case e if e.isAssignableFrom(classOf[MVal]) => MArray( l.map(x => x.asInstanceOf[MVal]) )
-    case e if e.isAssignableFrom(classOf[ObjectId]) => MArray( l.map(x => MId(x.asInstanceOf[ObjectId])) )
-    case e if e.isAssignableFrom(classOf[MObject]) => MArray( l.map(x => x.asInstanceOf[MVal]) )
-		// case e if e.getInterfaces.exists(c => c == classOf[DBObject]) => MArray( l.map(x => MDbo(x.as[DBObject])) )
-		case other => try {
-			MArray( l.map(x => MDbo(x.asInstanceOf[DBObject])) )
-		} catch {
-			case t: Throwable => throw new IllegalArgumentException("don't know how to convert "+other+" to MVal: "+t.getMessage)
-		}
-	}
+	// // TODO: un-uglify this - there must be a better way
+	// implicit def optlist2mval[T](l: Option[List[T]])(implicit m: Manifest[T]): MVal = l match {
+	// 	case Some(list) => list2mval[T](list)(m)
+	// 	case _ => MNothing
+	// }
+	// implicit def list2mval[T](l: List[T])(implicit m: Manifest[T]): MVal = m.erasure match {
+	// 	case e if e.isAssignableFrom(classOf[Int]) => MArray( l.map(x => int2mval(x.asInstanceOf[Int])) )
+	// 	case e if e.isAssignableFrom(classOf[Long]) => MArray( l.map(x => long2mval(x.asInstanceOf[Long])) )
+	// 	case e if e.isAssignableFrom(classOf[Double]) => MArray( l.map(x => double2mval(x.asInstanceOf[Double])) )
+	// 	case e if e.isAssignableFrom(classOf[Float]) => MArray( l.map(x => float2mval(x.asInstanceOf[Float])) )
+	// 	case e if e.isAssignableFrom(classOf[String]) => MArray( l.map(x => string2mval(x.asInstanceOf[String])) )
+	// 	case e if e.isAssignableFrom(classOf[Regex]) => MArray( l.map(x => regex2mval(x.asInstanceOf[Regex])) )
+	// 	case e if e.isAssignableFrom(classOf[java.util.regex.Pattern]) => MArray( l.map(x => pattern2mval(x.asInstanceOf[java.util.regex.Pattern])) )
+	//     case e if e.isAssignableFrom(classOf[MVal]) => MArray( l.map(x => x.asInstanceOf[MVal]) )
+	//     case e if e.isAssignableFrom(classOf[ObjectId]) => MArray( l.map(x => MId(x.asInstanceOf[ObjectId])) )
+	//     case e if e.isAssignableFrom(classOf[MObject]) => MArray( l.map(x => x.asInstanceOf[MVal]) )
+	// 	// case e if e.getInterfaces.exists(c => c == classOf[DBObject]) => MArray( l.map(x => MDbo(x.as[DBObject])) )
+	// 	case other => try {
+	// 		MArray( l.map(x => MDbo(x.asInstanceOf[DBObject])) )
+	// 	} catch {
+	// 		case t: Throwable => throw new IllegalArgumentException("don't know how to convert "+other+" to MVal: "+t.getMessage)
+	// 	}
+	// }
 	
 	// supports mapping keys to values
 	class KeyWrapper(k: MKey) {
@@ -189,9 +241,9 @@ object MongoDSL {
 	
 	implicit def anyref2mongonumwrapper(a: Any) = new MongoNumWrapper(a)
 	class MongoNumWrapper(a: Any) {
-		lazy val jNum2Int = a.toString.toInt
+		lazy val jNum2Int = a.toString.toDouble.toInt
 		lazy val jNum2JInt = a.asInstanceOf[java.lang.Integer]
-		lazy val jNum2Long = a.toString.toLong
+		lazy val jNum2Long = a.toString.toDouble.toLong
 		lazy val jNum2JLong = a.asInstanceOf[java.lang.Long]
 		lazy val jNum2Double = a.toString.toDouble
 		lazy val jNum2JDouble = a.asInstanceOf[java.lang.Double]
